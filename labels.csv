@@ -1,0 +1,1494 @@
+001_orig.npy|Buka kunci pintu depan
+001_flip.npy|Buka kunci pintu depan
+001_bright.npy|Buka kunci pintu depan
+001_dark.npy|Buka kunci pintu depan
+001_zoom_out.npy|Buka kunci pintu depan
+001_noise.npy|Buka kunci pintu depan
+002_orig.npy|Nyalakan lampu kamar mandi
+002_flip.npy|Nyalakan lampu kamar mandi
+002_bright.npy|Nyalakan lampu kamar mandi
+002_dark.npy|Nyalakan lampu kamar mandi
+002_zoom_out.npy|Nyalakan lampu kamar mandi
+002_noise.npy|Nyalakan lampu kamar mandi
+003_orig.npy|Matikan televisi sekarang
+003_flip.npy|Matikan televisi sekarang
+003_bright.npy|Matikan televisi sekarang
+003_dark.npy|Matikan televisi sekarang
+003_zoom_out.npy|Matikan televisi sekarang
+003_noise.npy|Matikan televisi sekarang
+004_orig.npy|Putar musik favorit saya
+004_flip.npy|Putar musik favorit saya
+004_bright.npy|Putar musik favorit saya
+004_dark.npy|Putar musik favorit saya
+004_zoom_out.npy|Putar musik favorit saya
+004_noise.npy|Putar musik favorit saya
+005_orig.npy|Berapa suhu udara hari ini
+005_flip.npy|Berapa suhu udara hari ini
+005_bright.npy|Berapa suhu udara hari ini
+005_dark.npy|Berapa suhu udara hari ini
+005_zoom_out.npy|Berapa suhu udara hari ini
+005_noise.npy|Berapa suhu udara hari ini
+006_orig.npy|Pasang alarm jam lima pagi
+006_flip.npy|Pasang alarm jam lima pagi
+006_bright.npy|Pasang alarm jam lima pagi
+006_dark.npy|Pasang alarm jam lima pagi
+006_zoom_out.npy|Pasang alarm jam lima pagi
+006_noise.npy|Pasang alarm jam lima pagi
+007_orig.npy|Telepon ibu sekarang juga
+007_flip.npy|Telepon ibu sekarang juga
+007_bright.npy|Telepon ibu sekarang juga
+007_dark.npy|Telepon ibu sekarang juga
+007_zoom_out.npy|Telepon ibu sekarang juga
+007_noise.npy|Telepon ibu sekarang juga
+008_orig.npy|Kirim pesan ke grup kantor
+008_flip.npy|Kirim pesan ke grup kantor
+008_bright.npy|Kirim pesan ke grup kantor
+008_dark.npy|Kirim pesan ke grup kantor
+008_zoom_out.npy|Kirim pesan ke grup kantor
+008_noise.npy|Kirim pesan ke grup kantor
+009_orig.npy|Tunjukkan jalan ke rumah sakit
+009_flip.npy|Tunjukkan jalan ke rumah sakit
+009_bright.npy|Tunjukkan jalan ke rumah sakit
+009_dark.npy|Tunjukkan jalan ke rumah sakit
+009_zoom_out.npy|Tunjukkan jalan ke rumah sakit
+009_noise.npy|Tunjukkan jalan ke rumah sakit
+010_orig.npy|Cari restoran padang terdekat
+010_flip.npy|Cari restoran padang terdekat
+010_bright.npy|Cari restoran padang terdekat
+010_dark.npy|Cari restoran padang terdekat
+010_zoom_out.npy|Cari restoran padang terdekat
+010_noise.npy|Cari restoran padang terdekat
+011_orig.npy|Berhenti memutar video ini
+011_flip.npy|Berhenti memutar video ini
+011_bright.npy|Berhenti memutar video ini
+011_dark.npy|Berhenti memutar video ini
+011_zoom_out.npy|Berhenti memutar video ini
+011_noise.npy|Berhenti memutar video ini
+012_orig.npy|Naikkan volume suara sedikit
+012_flip.npy|Naikkan volume suara sedikit
+012_bright.npy|Naikkan volume suara sedikit
+012_dark.npy|Naikkan volume suara sedikit
+012_zoom_out.npy|Naikkan volume suara sedikit
+012_noise.npy|Naikkan volume suara sedikit
+013_orig.npy|Turunkan kecerahan layar hp
+013_flip.npy|Turunkan kecerahan layar hp
+013_bright.npy|Turunkan kecerahan layar hp
+013_dark.npy|Turunkan kecerahan layar hp
+013_zoom_out.npy|Turunkan kecerahan layar hp
+013_noise.npy|Turunkan kecerahan layar hp
+014_orig.npy|Tangkap layar halaman ini
+014_flip.npy|Tangkap layar halaman ini
+014_bright.npy|Tangkap layar halaman ini
+014_dark.npy|Tangkap layar halaman ini
+014_zoom_out.npy|Tangkap layar halaman ini
+014_noise.npy|Tangkap layar halaman ini
+015_orig.npy|Buka aplikasi kamera depan
+015_flip.npy|Buka aplikasi kamera depan
+015_bright.npy|Buka aplikasi kamera depan
+015_dark.npy|Buka aplikasi kamera depan
+015_zoom_out.npy|Buka aplikasi kamera depan
+015_noise.npy|Buka aplikasi kamera depan
+016_orig.npy|Geser ke slide berikutnya
+016_flip.npy|Geser ke slide berikutnya
+016_bright.npy|Geser ke slide berikutnya
+016_dark.npy|Geser ke slide berikutnya
+016_zoom_out.npy|Geser ke slide berikutnya
+016_noise.npy|Geser ke slide berikutnya
+017_orig.npy|Kembali ke halaman utama
+017_flip.npy|Kembali ke halaman utama
+017_bright.npy|Kembali ke halaman utama
+017_dark.npy|Kembali ke halaman utama
+017_zoom_out.npy|Kembali ke halaman utama
+017_noise.npy|Kembali ke halaman utama
+018_orig.npy|Simpan dokumen ini segera
+018_flip.npy|Simpan dokumen ini segera
+018_bright.npy|Simpan dokumen ini segera
+018_dark.npy|Simpan dokumen ini segera
+018_zoom_out.npy|Simpan dokumen ini segera
+018_noise.npy|Simpan dokumen ini segera
+019_orig.npy|Hapus file yang tidak perlu
+019_flip.npy|Hapus file yang tidak perlu
+019_bright.npy|Hapus file yang tidak perlu
+019_dark.npy|Hapus file yang tidak perlu
+019_zoom_out.npy|Hapus file yang tidak perlu
+019_noise.npy|Hapus file yang tidak perlu
+020_orig.npy|Aktifkan mode pesawat sekarang
+020_flip.npy|Aktifkan mode pesawat sekarang
+020_bright.npy|Aktifkan mode pesawat sekarang
+020_dark.npy|Aktifkan mode pesawat sekarang
+020_zoom_out.npy|Aktifkan mode pesawat sekarang
+020_noise.npy|Aktifkan mode pesawat sekarang
+021_orig.npy|Satu dua tiga empat lima
+021_flip.npy|Satu dua tiga empat lima
+021_bright.npy|Satu dua tiga empat lima
+021_dark.npy|Satu dua tiga empat lima
+021_zoom_out.npy|Satu dua tiga empat lima
+021_noise.npy|Satu dua tiga empat lima
+022_orig.npy|Enam tujuh delapan sembilan sepuluh
+022_flip.npy|Enam tujuh delapan sembilan sepuluh
+022_bright.npy|Enam tujuh delapan sembilan sepuluh
+022_dark.npy|Enam tujuh delapan sembilan sepuluh
+022_zoom_out.npy|Enam tujuh delapan sembilan sepuluh
+022_noise.npy|Enam tujuh delapan sembilan sepuluh
+023_orig.npy|Saya lahir tahun sembilan puluhan
+023_flip.npy|Saya lahir tahun sembilan puluhan
+023_bright.npy|Saya lahir tahun sembilan puluhan
+023_dark.npy|Saya lahir tahun sembilan puluhan
+023_zoom_out.npy|Saya lahir tahun sembilan puluhan
+023_noise.npy|Saya lahir tahun sembilan puluhan
+024_orig.npy|Harganya lima puluh ribu rupiah
+024_flip.npy|Harganya lima puluh ribu rupiah
+024_bright.npy|Harganya lima puluh ribu rupiah
+024_dark.npy|Harganya lima puluh ribu rupiah
+024_zoom_out.npy|Harganya lima puluh ribu rupiah
+024_noise.npy|Harganya lima puluh ribu rupiah
+025_orig.npy|Kita bertemu jam tujuh malam
+025_flip.npy|Kita bertemu jam tujuh malam
+025_bright.npy|Kita bertemu jam tujuh malam
+025_dark.npy|Kita bertemu jam tujuh malam
+025_zoom_out.npy|Kita bertemu jam tujuh malam
+025_noise.npy|Kita bertemu jam tujuh malam
+026_orig.npy|Nomor antrian kamu adalah dua belas
+026_flip.npy|Nomor antrian kamu adalah dua belas
+026_bright.npy|Nomor antrian kamu adalah dua belas
+026_dark.npy|Nomor antrian kamu adalah dua belas
+026_zoom_out.npy|Nomor antrian kamu adalah dua belas
+026_noise.npy|Nomor antrian kamu adalah dua belas
+027_orig.npy|Masukkan kode verifikasi empat digit
+027_flip.npy|Masukkan kode verifikasi empat digit
+027_bright.npy|Masukkan kode verifikasi empat digit
+027_dark.npy|Masukkan kode verifikasi empat digit
+027_zoom_out.npy|Masukkan kode verifikasi empat digit
+027_noise.npy|Masukkan kode verifikasi empat digit
+028_orig.npy|Tinggal sepuluh detik lagi
+028_flip.npy|Tinggal sepuluh detik lagi
+028_bright.npy|Tinggal sepuluh detik lagi
+028_dark.npy|Tinggal sepuluh detik lagi
+028_zoom_out.npy|Tinggal sepuluh detik lagi
+028_noise.npy|Tinggal sepuluh detik lagi
+029_orig.npy|Ulang tahun saya tanggal tiga maret
+029_flip.npy|Ulang tahun saya tanggal tiga maret
+029_bright.npy|Ulang tahun saya tanggal tiga maret
+029_dark.npy|Ulang tahun saya tanggal tiga maret
+029_zoom_out.npy|Ulang tahun saya tanggal tiga maret
+029_noise.npy|Ulang tahun saya tanggal tiga maret
+030_orig.npy|Jaraknya sekitar dua ratus meter
+030_flip.npy|Jaraknya sekitar dua ratus meter
+030_bright.npy|Jaraknya sekitar dua ratus meter
+030_dark.npy|Jaraknya sekitar dua ratus meter
+030_zoom_out.npy|Jaraknya sekitar dua ratus meter
+030_noise.npy|Jaraknya sekitar dua ratus meter
+031_orig.npy|Berat badan saya enam puluh kilo
+031_flip.npy|Berat badan saya enam puluh kilo
+031_bright.npy|Berat badan saya enam puluh kilo
+031_dark.npy|Berat badan saya enam puluh kilo
+031_zoom_out.npy|Berat badan saya enam puluh kilo
+031_noise.npy|Berat badan saya enam puluh kilo
+032_orig.npy|Sudah jam dua belas siang lewat
+032_flip.npy|Sudah jam dua belas siang lewat
+032_bright.npy|Sudah jam dua belas siang lewat
+032_dark.npy|Sudah jam dua belas siang lewat
+032_zoom_out.npy|Sudah jam dua belas siang lewat
+032_noise.npy|Sudah jam dua belas siang lewat
+033_orig.npy|Saya butuh tiga lembar kertas
+033_flip.npy|Saya butuh tiga lembar kertas
+033_bright.npy|Saya butuh tiga lembar kertas
+033_dark.npy|Saya butuh tiga lembar kertas
+033_zoom_out.npy|Saya butuh tiga lembar kertas
+033_noise.npy|Saya butuh tiga lembar kertas
+034_orig.npy|Nomor teleponnya acak sekali
+034_flip.npy|Nomor teleponnya acak sekali
+034_bright.npy|Nomor teleponnya acak sekali
+034_dark.npy|Nomor teleponnya acak sekali
+034_zoom_out.npy|Nomor teleponnya acak sekali
+034_noise.npy|Nomor teleponnya acak sekali
+035_orig.npy|Tolong beli dua botol air
+035_flip.npy|Tolong beli dua botol air
+035_bright.npy|Tolong beli dua botol air
+035_dark.npy|Tolong beli dua botol air
+035_zoom_out.npy|Tolong beli dua botol air
+035_noise.npy|Tolong beli dua botol air
+036_orig.npy|Kuku kaki kakek kaku kaku
+036_flip.npy|Kuku kaki kakek kaku kaku
+036_bright.npy|Kuku kaki kakek kaku kaku
+036_dark.npy|Kuku kaki kakek kaku kaku
+036_zoom_out.npy|Kuku kaki kakek kaku kaku
+036_noise.npy|Kuku kaki kakek kaku kaku
+037_orig.npy|Ular melingkar di pagar bundar
+037_flip.npy|Ular melingkar di pagar bundar
+037_bright.npy|Ular melingkar di pagar bundar
+037_dark.npy|Ular melingkar di pagar bundar
+037_zoom_out.npy|Ular melingkar di pagar bundar
+037_noise.npy|Ular melingkar di pagar bundar
+038_orig.npy|Buaya membawa bungkusan baru
+038_flip.npy|Buaya membawa bungkusan baru
+038_bright.npy|Buaya membawa bungkusan baru
+038_dark.npy|Buaya membawa bungkusan baru
+038_zoom_out.npy|Buaya membawa bungkusan baru
+038_noise.npy|Buaya membawa bungkusan baru
+039_orig.npy|Papa pulang bawa pepaya pipih
+039_flip.npy|Papa pulang bawa pepaya pipih
+039_bright.npy|Papa pulang bawa pepaya pipih
+039_dark.npy|Papa pulang bawa pepaya pipih
+039_zoom_out.npy|Papa pulang bawa pepaya pipih
+039_noise.npy|Papa pulang bawa pepaya pipih
+040_orig.npy|Toko itu tutup tujuh tahun
+040_flip.npy|Toko itu tutup tujuh tahun
+040_bright.npy|Toko itu tutup tujuh tahun
+040_dark.npy|Toko itu tutup tujuh tahun
+040_zoom_out.npy|Toko itu tutup tujuh tahun
+040_noise.npy|Toko itu tutup tujuh tahun
+041_orig.npy|Saya suka sate sapi surabaya
+041_flip.npy|Saya suka sate sapi surabaya
+041_bright.npy|Saya suka sate sapi surabaya
+041_dark.npy|Saya suka sate sapi surabaya
+041_zoom_out.npy|Saya suka sate sapi surabaya
+041_noise.npy|Saya suka sate sapi surabaya
+042_orig.npy|Cicak cicak di dinding diam
+042_flip.npy|Cicak cicak di dinding diam
+042_bright.npy|Cicak cicak di dinding diam
+042_dark.npy|Cicak cicak di dinding diam
+042_zoom_out.npy|Cicak cicak di dinding diam
+042_noise.npy|Cicak cicak di dinding diam
+043_orig.npy|Bebek beku bapak bibi bau
+043_flip.npy|Bebek beku bapak bibi bau
+043_bright.npy|Bebek beku bapak bibi bau
+043_dark.npy|Bebek beku bapak bibi bau
+043_zoom_out.npy|Bebek beku bapak bibi bau
+043_noise.npy|Bebek beku bapak bibi bau
+044_orig.npy|Rara lari lurus lalu lupa
+044_flip.npy|Rara lari lurus lalu lupa
+044_bright.npy|Rara lari lurus lalu lupa
+044_dark.npy|Rara lari lurus lalu lupa
+044_zoom_out.npy|Rara lari lurus lalu lupa
+044_noise.npy|Rara lari lurus lalu lupa
+045_orig.npy|Fifi foto vas bunga ungu
+045_flip.npy|Fifi foto vas bunga ungu
+045_bright.npy|Fifi foto vas bunga ungu
+045_dark.npy|Fifi foto vas bunga ungu
+045_zoom_out.npy|Fifi foto vas bunga ungu
+045_noise.npy|Fifi foto vas bunga ungu
+046_orig.npy|Mama makan mangga manis malam malam
+046_flip.npy|Mama makan mangga manis malam malam
+046_bright.npy|Mama makan mangga manis malam malam
+046_dark.npy|Mama makan mangga manis malam malam
+046_zoom_out.npy|Mama makan mangga manis malam malam
+046_noise.npy|Mama makan mangga manis malam malam
+047_orig.npy|Gigi gusi gigi gusi geraham
+047_flip.npy|Gigi gusi gigi gusi geraham
+047_bright.npy|Gigi gusi gigi gusi geraham
+047_dark.npy|Gigi gusi gigi gusi geraham
+047_zoom_out.npy|Gigi gusi gigi gusi geraham
+047_noise.npy|Gigi gusi gigi gusi geraham
+048_orig.npy|Hewan harimau harus hidup di hutan
+048_flip.npy|Hewan harimau harus hidup di hutan
+048_bright.npy|Hewan harimau harus hidup di hutan
+048_dark.npy|Hewan harimau harus hidup di hutan
+048_zoom_out.npy|Hewan harimau harus hidup di hutan
+048_noise.npy|Hewan harimau harus hidup di hutan
+049_orig.npy|Nanya nyonya nyanyi nyaring nian
+049_flip.npy|Nanya nyonya nyanyi nyaring nian
+049_bright.npy|Nanya nyonya nyanyi nyaring nian
+049_dark.npy|Nanya nyonya nyanyi nyaring nian
+049_zoom_out.npy|Nanya nyonya nyanyi nyaring nian
+049_noise.npy|Nanya nyonya nyanyi nyaring nian
+050_orig.npy|Jauh jalan jangankan jatuh
+050_flip.npy|Jauh jalan jangankan jatuh
+050_bright.npy|Jauh jalan jangankan jatuh
+050_dark.npy|Jauh jalan jangankan jatuh
+050_zoom_out.npy|Jauh jalan jangankan jatuh
+050_noise.npy|Jauh jalan jangankan jatuh
+051_orig.npy|Halo apa kabar kamu hari ini
+051_flip.npy|Halo apa kabar kamu hari ini
+051_bright.npy|Halo apa kabar kamu hari ini
+051_dark.npy|Halo apa kabar kamu hari ini
+051_zoom_out.npy|Halo apa kabar kamu hari ini
+051_noise.npy|Halo apa kabar kamu hari ini
+052_orig.npy|Saya sedang mengerjakan tugas akhir
+052_flip.npy|Saya sedang mengerjakan tugas akhir
+052_bright.npy|Saya sedang mengerjakan tugas akhir
+052_dark.npy|Saya sedang mengerjakan tugas akhir
+052_zoom_out.npy|Saya sedang mengerjakan tugas akhir
+052_noise.npy|Saya sedang mengerjakan tugas akhir
+053_orig.npy|Tolong ambilkan minum di meja
+053_flip.npy|Tolong ambilkan minum di meja
+053_bright.npy|Tolong ambilkan minum di meja
+053_dark.npy|Tolong ambilkan minum di meja
+053_zoom_out.npy|Tolong ambilkan minum di meja
+053_noise.npy|Tolong ambilkan minum di meja
+054_orig.npy|Cuaca hari ini sangat panas ya
+054_flip.npy|Cuaca hari ini sangat panas ya
+054_bright.npy|Cuaca hari ini sangat panas ya
+054_dark.npy|Cuaca hari ini sangat panas ya
+054_zoom_out.npy|Cuaca hari ini sangat panas ya
+054_noise.npy|Cuaca hari ini sangat panas ya
+055_orig.npy|Jangan lupa makan siang nanti
+055_flip.npy|Jangan lupa makan siang nanti
+055_bright.npy|Jangan lupa makan siang nanti
+055_dark.npy|Jangan lupa makan siang nanti
+055_zoom_out.npy|Jangan lupa makan siang nanti
+055_noise.npy|Jangan lupa makan siang nanti
+056_orig.npy|Saya merasa sangat lelah sekali
+056_flip.npy|Saya merasa sangat lelah sekali
+056_bright.npy|Saya merasa sangat lelah sekali
+056_dark.npy|Saya merasa sangat lelah sekali
+056_zoom_out.npy|Saya merasa sangat lelah sekali
+056_noise.npy|Saya merasa sangat lelah sekali
+057_orig.npy|Kapan kita bisa pergi liburan
+057_flip.npy|Kapan kita bisa pergi liburan
+057_bright.npy|Kapan kita bisa pergi liburan
+057_dark.npy|Kapan kita bisa pergi liburan
+057_zoom_out.npy|Kapan kita bisa pergi liburan
+057_noise.npy|Kapan kita bisa pergi liburan
+058_orig.npy|Buku ini sangat bagus isinya
+058_flip.npy|Buku ini sangat bagus isinya
+058_bright.npy|Buku ini sangat bagus isinya
+058_dark.npy|Buku ini sangat bagus isinya
+058_zoom_out.npy|Buku ini sangat bagus isinya
+058_noise.npy|Buku ini sangat bagus isinya
+059_orig.npy|Saya tidak mengerti maksud kamu
+059_flip.npy|Saya tidak mengerti maksud kamu
+059_bright.npy|Saya tidak mengerti maksud kamu
+059_dark.npy|Saya tidak mengerti maksud kamu
+059_zoom_out.npy|Saya tidak mengerti maksud kamu
+059_noise.npy|Saya tidak mengerti maksud kamu
+060_orig.npy|Coba jelaskan sekali lagi pelan pelan
+060_flip.npy|Coba jelaskan sekali lagi pelan pelan
+060_bright.npy|Coba jelaskan sekali lagi pelan pelan
+060_dark.npy|Coba jelaskan sekali lagi pelan pelan
+060_zoom_out.npy|Coba jelaskan sekali lagi pelan pelan
+060_noise.npy|Coba jelaskan sekali lagi pelan pelan
+061_orig.npy|Terima kasih banyak atas bantuannya
+061_flip.npy|Terima kasih banyak atas bantuannya
+061_bright.npy|Terima kasih banyak atas bantuannya
+061_dark.npy|Terima kasih banyak atas bantuannya
+061_zoom_out.npy|Terima kasih banyak atas bantuannya
+061_noise.npy|Terima kasih banyak atas bantuannya
+062_orig.npy|Maaf saya datang terlambat tadi
+062_flip.npy|Maaf saya datang terlambat tadi
+062_bright.npy|Maaf saya datang terlambat tadi
+062_dark.npy|Maaf saya datang terlambat tadi
+062_zoom_out.npy|Maaf saya datang terlambat tadi
+062_noise.npy|Maaf saya datang terlambat tadi
+063_orig.npy|Hati hati di jalan pulang ya
+063_flip.npy|Hati hati di jalan pulang ya
+063_bright.npy|Hati hati di jalan pulang ya
+063_dark.npy|Hati hati di jalan pulang ya
+063_zoom_out.npy|Hati hati di jalan pulang ya
+063_noise.npy|Hati hati di jalan pulang ya
+064_orig.npy|Selamat pagi semuanya semoga sukses
+064_flip.npy|Selamat pagi semuanya semoga sukses
+064_bright.npy|Selamat pagi semuanya semoga sukses
+064_dark.npy|Selamat pagi semuanya semoga sukses
+064_zoom_out.npy|Selamat pagi semuanya semoga sukses
+064_noise.npy|Selamat pagi semuanya semoga sukses
+065_orig.npy|Sampai jumpa besok di kampus
+065_flip.npy|Sampai jumpa besok di kampus
+065_bright.npy|Sampai jumpa besok di kampus
+065_dark.npy|Sampai jumpa besok di kampus
+065_zoom_out.npy|Sampai jumpa besok di kampus
+065_noise.npy|Sampai jumpa besok di kampus
+066_orig.npy|Apakah kamu sudah mengerjakan pr
+066_flip.npy|Apakah kamu sudah mengerjakan pr
+066_bright.npy|Apakah kamu sudah mengerjakan pr
+066_dark.npy|Apakah kamu sudah mengerjakan pr
+066_zoom_out.npy|Apakah kamu sudah mengerjakan pr
+066_noise.npy|Apakah kamu sudah mengerjakan pr
+067_orig.npy|Saya ingin minum kopi dingin
+067_flip.npy|Saya ingin minum kopi dingin
+067_bright.npy|Saya ingin minum kopi dingin
+067_dark.npy|Saya ingin minum kopi dingin
+067_zoom_out.npy|Saya ingin minum kopi dingin
+067_noise.npy|Saya ingin minum kopi dingin
+068_orig.npy|Baju warna biru itu bagus
+068_flip.npy|Baju warna biru itu bagus
+068_bright.npy|Baju warna biru itu bagus
+068_dark.npy|Baju warna biru itu bagus
+068_zoom_out.npy|Baju warna biru itu bagus
+068_noise.npy|Baju warna biru itu bagus
+069_orig.npy|Jangan buang sampah sembarangan dong
+069_flip.npy|Jangan buang sampah sembarangan dong
+069_bright.npy|Jangan buang sampah sembarangan dong
+069_dark.npy|Jangan buang sampah sembarangan dong
+069_zoom_out.npy|Jangan buang sampah sembarangan dong
+069_noise.npy|Jangan buang sampah sembarangan dong
+070_orig.npy|Kita harus menjaga kesehatan tubuh
+070_flip.npy|Kita harus menjaga kesehatan tubuh
+070_bright.npy|Kita harus menjaga kesehatan tubuh
+070_dark.npy|Kita harus menjaga kesehatan tubuh
+070_zoom_out.npy|Kita harus menjaga kesehatan tubuh
+070_noise.npy|Kita harus menjaga kesehatan tubuh
+071_orig.npy|Saya belum pernah ke sana sebelumnya
+071_flip.npy|Saya belum pernah ke sana sebelumnya
+071_bright.npy|Saya belum pernah ke sana sebelumnya
+071_dark.npy|Saya belum pernah ke sana sebelumnya
+071_zoom_out.npy|Saya belum pernah ke sana sebelumnya
+071_noise.npy|Saya belum pernah ke sana sebelumnya
+072_orig.npy|Mungkin nanti sore hujan turun
+072_flip.npy|Mungkin nanti sore hujan turun
+072_bright.npy|Mungkin nanti sore hujan turun
+072_dark.npy|Mungkin nanti sore hujan turun
+072_zoom_out.npy|Mungkin nanti sore hujan turun
+072_noise.npy|Mungkin nanti sore hujan turun
+073_orig.npy|Tolong tutup pintunya pelan pelan
+073_flip.npy|Tolong tutup pintunya pelan pelan
+073_bright.npy|Tolong tutup pintunya pelan pelan
+073_dark.npy|Tolong tutup pintunya pelan pelan
+073_zoom_out.npy|Tolong tutup pintunya pelan pelan
+073_noise.npy|Tolong tutup pintunya pelan pelan
+074_orig.npy|Saya setuju dengan pendapat kamu
+074_flip.npy|Saya setuju dengan pendapat kamu
+074_bright.npy|Saya setuju dengan pendapat kamu
+074_dark.npy|Saya setuju dengan pendapat kamu
+074_zoom_out.npy|Saya setuju dengan pendapat kamu
+074_noise.npy|Saya setuju dengan pendapat kamu
+075_orig.npy|Itu ide yang sangat cemerlang
+075_flip.npy|Itu ide yang sangat cemerlang
+075_bright.npy|Itu ide yang sangat cemerlang
+075_dark.npy|Itu ide yang sangat cemerlang
+075_zoom_out.npy|Itu ide yang sangat cemerlang
+075_noise.npy|Itu ide yang sangat cemerlang
+076_orig.npy|Kenapa kamu diam saja dari tadi
+076_flip.npy|Kenapa kamu diam saja dari tadi
+076_bright.npy|Kenapa kamu diam saja dari tadi
+076_dark.npy|Kenapa kamu diam saja dari tadi
+076_zoom_out.npy|Kenapa kamu diam saja dari tadi
+076_noise.npy|Kenapa kamu diam saja dari tadi
+077_orig.npy|Siapa yang mengambil kue saya
+077_flip.npy|Siapa yang mengambil kue saya
+077_bright.npy|Siapa yang mengambil kue saya
+077_dark.npy|Siapa yang mengambil kue saya
+077_zoom_out.npy|Siapa yang mengambil kue saya
+077_noise.npy|Siapa yang mengambil kue saya
+078_orig.npy|Di mana kamu simpan kunci motor
+078_flip.npy|Di mana kamu simpan kunci motor
+078_bright.npy|Di mana kamu simpan kunci motor
+078_dark.npy|Di mana kamu simpan kunci motor
+078_zoom_out.npy|Di mana kamu simpan kunci motor
+078_noise.npy|Di mana kamu simpan kunci motor
+079_orig.npy|Bagaimana cara masak nasi goreng
+079_flip.npy|Bagaimana cara masak nasi goreng
+079_bright.npy|Bagaimana cara masak nasi goreng
+079_dark.npy|Bagaimana cara masak nasi goreng
+079_zoom_out.npy|Bagaimana cara masak nasi goreng
+079_noise.npy|Bagaimana cara masak nasi goreng
+080_orig.npy|Saya senang bertemu dengan kamu
+080_flip.npy|Saya senang bertemu dengan kamu
+080_bright.npy|Saya senang bertemu dengan kamu
+080_dark.npy|Saya senang bertemu dengan kamu
+080_zoom_out.npy|Saya senang bertemu dengan kamu
+080_noise.npy|Saya senang bertemu dengan kamu
+081_orig.npy|Perkembangan teknologi kecerdasan buatan sangat pesat
+081_flip.npy|Perkembangan teknologi kecerdasan buatan sangat pesat
+081_bright.npy|Perkembangan teknologi kecerdasan buatan sangat pesat
+081_dark.npy|Perkembangan teknologi kecerdasan buatan sangat pesat
+081_zoom_out.npy|Perkembangan teknologi kecerdasan buatan sangat pesat
+081_noise.npy|Perkembangan teknologi kecerdasan buatan sangat pesat
+082_orig.npy|Pemerintah mengumumkan libur nasional besok lusa
+082_flip.npy|Pemerintah mengumumkan libur nasional besok lusa
+082_bright.npy|Pemerintah mengumumkan libur nasional besok lusa
+082_dark.npy|Pemerintah mengumumkan libur nasional besok lusa
+082_zoom_out.npy|Pemerintah mengumumkan libur nasional besok lusa
+082_noise.npy|Pemerintah mengumumkan libur nasional besok lusa
+083_orig.npy|Mahasiswa sedang melakukan penelitian di laboratorium
+083_flip.npy|Mahasiswa sedang melakukan penelitian di laboratorium
+083_bright.npy|Mahasiswa sedang melakukan penelitian di laboratorium
+083_dark.npy|Mahasiswa sedang melakukan penelitian di laboratorium
+083_zoom_out.npy|Mahasiswa sedang melakukan penelitian di laboratorium
+083_noise.npy|Mahasiswa sedang melakukan penelitian di laboratorium
+084_orig.npy|Kucing itu tidur pulas di atas sofa empuk
+084_flip.npy|Kucing itu tidur pulas di atas sofa empuk
+084_bright.npy|Kucing itu tidur pulas di atas sofa empuk
+084_dark.npy|Kucing itu tidur pulas di atas sofa empuk
+084_zoom_out.npy|Kucing itu tidur pulas di atas sofa empuk
+084_noise.npy|Kucing itu tidur pulas di atas sofa empuk
+085_orig.npy|Olahraga pagi sangat baik untuk kesehatan jantung
+085_flip.npy|Olahraga pagi sangat baik untuk kesehatan jantung
+085_bright.npy|Olahraga pagi sangat baik untuk kesehatan jantung
+085_dark.npy|Olahraga pagi sangat baik untuk kesehatan jantung
+085_zoom_out.npy|Olahraga pagi sangat baik untuk kesehatan jantung
+085_noise.npy|Olahraga pagi sangat baik untuk kesehatan jantung
+086_orig.npy|Jangan lupa mematikan kompor sebelum pergi keluar
+086_flip.npy|Jangan lupa mematikan kompor sebelum pergi keluar
+086_bright.npy|Jangan lupa mematikan kompor sebelum pergi keluar
+086_dark.npy|Jangan lupa mematikan kompor sebelum pergi keluar
+086_zoom_out.npy|Jangan lupa mematikan kompor sebelum pergi keluar
+086_noise.npy|Jangan lupa mematikan kompor sebelum pergi keluar
+087_orig.npy|Pemandangan di pantai itu sungguh mempesona mata
+087_flip.npy|Pemandangan di pantai itu sungguh mempesona mata
+087_bright.npy|Pemandangan di pantai itu sungguh mempesona mata
+087_dark.npy|Pemandangan di pantai itu sungguh mempesona mata
+087_zoom_out.npy|Pemandangan di pantai itu sungguh mempesona mata
+087_noise.npy|Pemandangan di pantai itu sungguh mempesona mata
+088_orig.npy|Harga bahan pokok sedang naik di pasar tradisional
+088_flip.npy|Harga bahan pokok sedang naik di pasar tradisional
+088_bright.npy|Harga bahan pokok sedang naik di pasar tradisional
+088_dark.npy|Harga bahan pokok sedang naik di pasar tradisional
+088_zoom_out.npy|Harga bahan pokok sedang naik di pasar tradisional
+088_noise.npy|Harga bahan pokok sedang naik di pasar tradisional
+089_orig.npy|Saya harus menyelesaikan skripsi bulan depan pasti
+089_flip.npy|Saya harus menyelesaikan skripsi bulan depan pasti
+089_bright.npy|Saya harus menyelesaikan skripsi bulan depan pasti
+089_dark.npy|Saya harus menyelesaikan skripsi bulan depan pasti
+089_zoom_out.npy|Saya harus menyelesaikan skripsi bulan depan pasti
+089_noise.npy|Saya harus menyelesaikan skripsi bulan depan pasti
+090_orig.npy|Kereta api berangkat tepat pukul delapan pagi
+090_flip.npy|Kereta api berangkat tepat pukul delapan pagi
+090_bright.npy|Kereta api berangkat tepat pukul delapan pagi
+090_dark.npy|Kereta api berangkat tepat pukul delapan pagi
+090_zoom_out.npy|Kereta api berangkat tepat pukul delapan pagi
+090_noise.npy|Kereta api berangkat tepat pukul delapan pagi
+091_orig.npy|Kopi ini rasanya terlalu manis untuk saya
+091_flip.npy|Kopi ini rasanya terlalu manis untuk saya
+091_bright.npy|Kopi ini rasanya terlalu manis untuk saya
+091_dark.npy|Kopi ini rasanya terlalu manis untuk saya
+091_zoom_out.npy|Kopi ini rasanya terlalu manis untuk saya
+091_noise.npy|Kopi ini rasanya terlalu manis untuk saya
+092_orig.npy|Laptop saya kehabisan baterai saat sedang rapat
+092_flip.npy|Laptop saya kehabisan baterai saat sedang rapat
+092_bright.npy|Laptop saya kehabisan baterai saat sedang rapat
+092_dark.npy|Laptop saya kehabisan baterai saat sedang rapat
+092_zoom_out.npy|Laptop saya kehabisan baterai saat sedang rapat
+092_noise.npy|Laptop saya kehabisan baterai saat sedang rapat
+093_orig.npy|Dia sedang belajar bahasa pemrograman python dasar
+093_flip.npy|Dia sedang belajar bahasa pemrograman python dasar
+093_bright.npy|Dia sedang belajar bahasa pemrograman python dasar
+093_dark.npy|Dia sedang belajar bahasa pemrograman python dasar
+093_zoom_out.npy|Dia sedang belajar bahasa pemrograman python dasar
+093_noise.npy|Dia sedang belajar bahasa pemrograman python dasar
+094_orig.npy|Film bioskop terbaru itu sangat seru sekali
+094_flip.npy|Film bioskop terbaru itu sangat seru sekali
+094_bright.npy|Film bioskop terbaru itu sangat seru sekali
+094_dark.npy|Film bioskop terbaru itu sangat seru sekali
+094_zoom_out.npy|Film bioskop terbaru itu sangat seru sekali
+094_noise.npy|Film bioskop terbaru itu sangat seru sekali
+095_orig.npy|Hujan deras menyebabkan banjir di beberapa daerah
+095_flip.npy|Hujan deras menyebabkan banjir di beberapa daerah
+095_bright.npy|Hujan deras menyebabkan banjir di beberapa daerah
+095_dark.npy|Hujan deras menyebabkan banjir di beberapa daerah
+095_zoom_out.npy|Hujan deras menyebabkan banjir di beberapa daerah
+095_noise.npy|Hujan deras menyebabkan banjir di beberapa daerah
+096_orig.npy|Tolong sampaikan salam saya kepada orang tuamu
+096_flip.npy|Tolong sampaikan salam saya kepada orang tuamu
+096_bright.npy|Tolong sampaikan salam saya kepada orang tuamu
+096_dark.npy|Tolong sampaikan salam saya kepada orang tuamu
+096_zoom_out.npy|Tolong sampaikan salam saya kepada orang tuamu
+096_noise.npy|Tolong sampaikan salam saya kepada orang tuamu
+097_orig.npy|Kita perlu diskusi kelompok untuk tugas besar
+097_flip.npy|Kita perlu diskusi kelompok untuk tugas besar
+097_bright.npy|Kita perlu diskusi kelompok untuk tugas besar
+097_dark.npy|Kita perlu diskusi kelompok untuk tugas besar
+097_zoom_out.npy|Kita perlu diskusi kelompok untuk tugas besar
+097_noise.npy|Kita perlu diskusi kelompok untuk tugas besar
+098_orig.npy|Jaringan internet di sini sedang sangat lambat
+098_flip.npy|Jaringan internet di sini sedang sangat lambat
+098_bright.npy|Jaringan internet di sini sedang sangat lambat
+098_dark.npy|Jaringan internet di sini sedang sangat lambat
+098_zoom_out.npy|Jaringan internet di sini sedang sangat lambat
+098_noise.npy|Jaringan internet di sini sedang sangat lambat
+099_orig.npy|Selamat ulang tahun semoga panjang umur sehat selalu
+099_flip.npy|Selamat ulang tahun semoga panjang umur sehat selalu
+099_bright.npy|Selamat ulang tahun semoga panjang umur sehat selalu
+099_dark.npy|Selamat ulang tahun semoga panjang umur sehat selalu
+099_zoom_out.npy|Selamat ulang tahun semoga panjang umur sehat selalu
+099_noise.npy|Selamat ulang tahun semoga panjang umur sehat selalu
+100_orig.npy|Ini adalah kalimat terakhir dari dataset saya
+100_flip.npy|Ini adalah kalimat terakhir dari dataset saya
+100_bright.npy|Ini adalah kalimat terakhir dari dataset saya
+100_dark.npy|Ini adalah kalimat terakhir dari dataset saya
+100_zoom_out.npy|Ini adalah kalimat terakhir dari dataset saya
+100_noise.npy|Ini adalah kalimat terakhir dari dataset saya
+101_orig.npy|Buka kunci pintu depan.
+101_flip.npy|Buka kunci pintu depan.
+101_bright.npy|Buka kunci pintu depan.
+101_dark.npy|Buka kunci pintu depan.
+101_zoom_out.npy|Buka kunci pintu depan.
+101_noise.npy|Buka kunci pintu depan.
+102_orig.npy|Nyalakan lampu kamar mandi.
+102_flip.npy|Nyalakan lampu kamar mandi.
+102_bright.npy|Nyalakan lampu kamar mandi.
+102_dark.npy|Nyalakan lampu kamar mandi.
+102_zoom_out.npy|Nyalakan lampu kamar mandi.
+102_noise.npy|Nyalakan lampu kamar mandi.
+103_orig.npy|Matikan televisi sekarang.
+103_flip.npy|Matikan televisi sekarang.
+103_bright.npy|Matikan televisi sekarang.
+103_dark.npy|Matikan televisi sekarang.
+103_zoom_out.npy|Matikan televisi sekarang.
+103_noise.npy|Matikan televisi sekarang.
+104_orig.npy|Putar musik favorit saya.
+104_flip.npy|Putar musik favorit saya.
+104_bright.npy|Putar musik favorit saya.
+104_dark.npy|Putar musik favorit saya.
+104_zoom_out.npy|Putar musik favorit saya.
+104_noise.npy|Putar musik favorit saya.
+105_orig.npy|Berapa suhu udara hari ini?
+105_flip.npy|Berapa suhu udara hari ini?
+105_bright.npy|Berapa suhu udara hari ini?
+105_dark.npy|Berapa suhu udara hari ini?
+105_zoom_out.npy|Berapa suhu udara hari ini?
+105_noise.npy|Berapa suhu udara hari ini?
+106_orig.npy|Pasang alarm jam lima pagi.
+106_flip.npy|Pasang alarm jam lima pagi.
+106_bright.npy|Pasang alarm jam lima pagi.
+106_dark.npy|Pasang alarm jam lima pagi.
+106_zoom_out.npy|Pasang alarm jam lima pagi.
+106_noise.npy|Pasang alarm jam lima pagi.
+107_orig.npy|Satu dua tiga empat lima.
+107_flip.npy|Satu dua tiga empat lima.
+107_bright.npy|Satu dua tiga empat lima.
+107_dark.npy|Satu dua tiga empat lima.
+107_zoom_out.npy|Satu dua tiga empat lima.
+107_noise.npy|Satu dua tiga empat lima.
+108_orig.npy|Enam tujuh delapan sembilan sepuluh.
+108_flip.npy|Enam tujuh delapan sembilan sepuluh.
+108_bright.npy|Enam tujuh delapan sembilan sepuluh.
+108_dark.npy|Enam tujuh delapan sembilan sepuluh.
+108_zoom_out.npy|Enam tujuh delapan sembilan sepuluh.
+108_noise.npy|Enam tujuh delapan sembilan sepuluh.
+109_orig.npy|Saya lahir tahun sembilan puluhan.
+109_flip.npy|Saya lahir tahun sembilan puluhan.
+109_bright.npy|Saya lahir tahun sembilan puluhan.
+109_dark.npy|Saya lahir tahun sembilan puluhan.
+109_zoom_out.npy|Saya lahir tahun sembilan puluhan.
+109_noise.npy|Saya lahir tahun sembilan puluhan.
+110_orig.npy|Harganya lima puluh ribu rupiah.
+110_flip.npy|Harganya lima puluh ribu rupiah.
+110_bright.npy|Harganya lima puluh ribu rupiah.
+110_dark.npy|Harganya lima puluh ribu rupiah.
+110_zoom_out.npy|Harganya lima puluh ribu rupiah.
+110_noise.npy|Harganya lima puluh ribu rupiah.
+111_orig.npy|Kita bertemu jam tujuh malam.
+111_flip.npy|Kita bertemu jam tujuh malam.
+111_bright.npy|Kita bertemu jam tujuh malam.
+111_dark.npy|Kita bertemu jam tujuh malam.
+111_zoom_out.npy|Kita bertemu jam tujuh malam.
+111_noise.npy|Kita bertemu jam tujuh malam.
+112_orig.npy|Kuku kaki kakek kaku kaku.
+112_flip.npy|Kuku kaki kakek kaku kaku.
+112_bright.npy|Kuku kaki kakek kaku kaku.
+112_dark.npy|Kuku kaki kakek kaku kaku.
+112_zoom_out.npy|Kuku kaki kakek kaku kaku.
+112_noise.npy|Kuku kaki kakek kaku kaku.
+113_orig.npy|Ular melingkar di pagar bundar.
+113_flip.npy|Ular melingkar di pagar bundar.
+113_bright.npy|Ular melingkar di pagar bundar.
+113_dark.npy|Ular melingkar di pagar bundar.
+113_zoom_out.npy|Ular melingkar di pagar bundar.
+113_noise.npy|Ular melingkar di pagar bundar.
+114_orig.npy|Buaya membawa bungkusan baru.
+114_flip.npy|Buaya membawa bungkusan baru.
+114_bright.npy|Buaya membawa bungkusan baru.
+114_dark.npy|Buaya membawa bungkusan baru.
+114_zoom_out.npy|Buaya membawa bungkusan baru.
+114_noise.npy|Buaya membawa bungkusan baru.
+115_orig.npy|Papa pulang bawa pepaya pipih.
+115_flip.npy|Papa pulang bawa pepaya pipih.
+115_bright.npy|Papa pulang bawa pepaya pipih.
+115_dark.npy|Papa pulang bawa pepaya pipih.
+115_zoom_out.npy|Papa pulang bawa pepaya pipih.
+115_noise.npy|Papa pulang bawa pepaya pipih.
+116_orig.npy|Toko itu tutup tujuh tahun.
+116_flip.npy|Toko itu tutup tujuh tahun.
+116_bright.npy|Toko itu tutup tujuh tahun.
+116_dark.npy|Toko itu tutup tujuh tahun.
+116_zoom_out.npy|Toko itu tutup tujuh tahun.
+116_noise.npy|Toko itu tutup tujuh tahun.
+117_orig.npy|Saya suka sate sapi surabaya.
+117_flip.npy|Saya suka sate sapi surabaya.
+117_bright.npy|Saya suka sate sapi surabaya.
+117_dark.npy|Saya suka sate sapi surabaya.
+117_zoom_out.npy|Saya suka sate sapi surabaya.
+117_noise.npy|Saya suka sate sapi surabaya.
+118_orig.npy|Halo apa kabar kamu hari ini.
+118_flip.npy|Halo apa kabar kamu hari ini.
+118_bright.npy|Halo apa kabar kamu hari ini.
+118_dark.npy|Halo apa kabar kamu hari ini.
+118_zoom_out.npy|Halo apa kabar kamu hari ini.
+118_noise.npy|Halo apa kabar kamu hari ini.
+119_orig.npy|Saya sedang mengerjakan tugas akhir.
+119_flip.npy|Saya sedang mengerjakan tugas akhir.
+119_bright.npy|Saya sedang mengerjakan tugas akhir.
+119_dark.npy|Saya sedang mengerjakan tugas akhir.
+119_zoom_out.npy|Saya sedang mengerjakan tugas akhir.
+119_noise.npy|Saya sedang mengerjakan tugas akhir.
+120_orig.npy|Tolong ambilkan minum di meja.
+120_flip.npy|Tolong ambilkan minum di meja.
+120_bright.npy|Tolong ambilkan minum di meja.
+120_dark.npy|Tolong ambilkan minum di meja.
+120_zoom_out.npy|Tolong ambilkan minum di meja.
+120_noise.npy|Tolong ambilkan minum di meja.
+121_orig.npy|Cuaca hari ini sangat panas ya.
+121_flip.npy|Cuaca hari ini sangat panas ya.
+121_bright.npy|Cuaca hari ini sangat panas ya.
+121_dark.npy|Cuaca hari ini sangat panas ya.
+121_zoom_out.npy|Cuaca hari ini sangat panas ya.
+121_noise.npy|Cuaca hari ini sangat panas ya.
+122_orig.npy|Jangan lupa makan siang nanti.
+122_flip.npy|Jangan lupa makan siang nanti.
+122_bright.npy|Jangan lupa makan siang nanti.
+122_dark.npy|Jangan lupa makan siang nanti.
+122_zoom_out.npy|Jangan lupa makan siang nanti.
+122_noise.npy|Jangan lupa makan siang nanti.
+123_orig.npy|Saya merasa sangat lelah sekali.
+123_flip.npy|Saya merasa sangat lelah sekali.
+123_bright.npy|Saya merasa sangat lelah sekali.
+123_dark.npy|Saya merasa sangat lelah sekali.
+123_zoom_out.npy|Saya merasa sangat lelah sekali.
+123_noise.npy|Saya merasa sangat lelah sekali.
+124_orig.npy|Kapan kita bisa pergi liburan?
+124_flip.npy|Kapan kita bisa pergi liburan?
+124_bright.npy|Kapan kita bisa pergi liburan?
+124_dark.npy|Kapan kita bisa pergi liburan?
+124_zoom_out.npy|Kapan kita bisa pergi liburan?
+124_noise.npy|Kapan kita bisa pergi liburan?
+125_orig.npy|Buku ini sangat bagus isinya.
+125_flip.npy|Buku ini sangat bagus isinya.
+125_bright.npy|Buku ini sangat bagus isinya.
+125_dark.npy|Buku ini sangat bagus isinya.
+125_zoom_out.npy|Buku ini sangat bagus isinya.
+125_noise.npy|Buku ini sangat bagus isinya.
+126_orig.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+126_flip.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+126_bright.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+126_dark.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+126_zoom_out.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+126_noise.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+127_orig.npy|Pemerintah mengumumkan libur nasional besok lusa.
+127_flip.npy|Pemerintah mengumumkan libur nasional besok lusa.
+127_bright.npy|Pemerintah mengumumkan libur nasional besok lusa.
+127_dark.npy|Pemerintah mengumumkan libur nasional besok lusa.
+127_zoom_out.npy|Pemerintah mengumumkan libur nasional besok lusa.
+127_noise.npy|Pemerintah mengumumkan libur nasional besok lusa.
+128_orig.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+128_flip.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+128_bright.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+128_dark.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+128_zoom_out.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+128_noise.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+129_orig.npy|Kucing itu tidur pulas di atas sofa empuk.
+129_flip.npy|Kucing itu tidur pulas di atas sofa empuk.
+129_bright.npy|Kucing itu tidur pulas di atas sofa empuk.
+129_dark.npy|Kucing itu tidur pulas di atas sofa empuk.
+129_zoom_out.npy|Kucing itu tidur pulas di atas sofa empuk.
+129_noise.npy|Kucing itu tidur pulas di atas sofa empuk.
+130_orig.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+130_flip.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+130_bright.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+130_dark.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+130_zoom_out.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+130_noise.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+131_orig.npy|Buka kunci pintu depan.
+131_flip.npy|Buka kunci pintu depan.
+131_bright.npy|Buka kunci pintu depan.
+131_dark.npy|Buka kunci pintu depan.
+131_zoom_out.npy|Buka kunci pintu depan.
+131_noise.npy|Buka kunci pintu depan.
+132_orig.npy|Nyalakan lampu kamar mandi.
+132_flip.npy|Nyalakan lampu kamar mandi.
+132_bright.npy|Nyalakan lampu kamar mandi.
+132_dark.npy|Nyalakan lampu kamar mandi.
+132_zoom_out.npy|Nyalakan lampu kamar mandi.
+132_noise.npy|Nyalakan lampu kamar mandi.
+133_orig.npy|Matikan televisi sekarang.
+133_flip.npy|Matikan televisi sekarang.
+133_bright.npy|Matikan televisi sekarang.
+133_dark.npy|Matikan televisi sekarang.
+133_zoom_out.npy|Matikan televisi sekarang.
+133_noise.npy|Matikan televisi sekarang.
+134_orig.npy|Putar musik favorit saya.
+134_flip.npy|Putar musik favorit saya.
+134_bright.npy|Putar musik favorit saya.
+134_dark.npy|Putar musik favorit saya.
+134_zoom_out.npy|Putar musik favorit saya.
+134_noise.npy|Putar musik favorit saya.
+135_orig.npy|Berapa suhu udara hari ini?
+135_flip.npy|Berapa suhu udara hari ini?
+135_bright.npy|Berapa suhu udara hari ini?
+135_dark.npy|Berapa suhu udara hari ini?
+135_zoom_out.npy|Berapa suhu udara hari ini?
+135_noise.npy|Berapa suhu udara hari ini?
+136_orig.npy|Pasang alarm jam lima pagi.
+136_flip.npy|Pasang alarm jam lima pagi.
+136_bright.npy|Pasang alarm jam lima pagi.
+136_dark.npy|Pasang alarm jam lima pagi.
+136_zoom_out.npy|Pasang alarm jam lima pagi.
+136_noise.npy|Pasang alarm jam lima pagi.
+137_orig.npy|Satu dua tiga empat lima.
+137_flip.npy|Satu dua tiga empat lima.
+137_bright.npy|Satu dua tiga empat lima.
+137_dark.npy|Satu dua tiga empat lima.
+137_zoom_out.npy|Satu dua tiga empat lima.
+137_noise.npy|Satu dua tiga empat lima.
+138_orig.npy|Enam tujuh delapan sembilan sepuluh.
+138_flip.npy|Enam tujuh delapan sembilan sepuluh.
+138_bright.npy|Enam tujuh delapan sembilan sepuluh.
+138_dark.npy|Enam tujuh delapan sembilan sepuluh.
+138_zoom_out.npy|Enam tujuh delapan sembilan sepuluh.
+138_noise.npy|Enam tujuh delapan sembilan sepuluh.
+139_orig.npy|Saya lahir tahun sembilan puluhan.
+139_flip.npy|Saya lahir tahun sembilan puluhan.
+139_bright.npy|Saya lahir tahun sembilan puluhan.
+139_dark.npy|Saya lahir tahun sembilan puluhan.
+139_zoom_out.npy|Saya lahir tahun sembilan puluhan.
+139_noise.npy|Saya lahir tahun sembilan puluhan.
+140_orig.npy|Harganya lima puluh ribu rupiah.
+140_flip.npy|Harganya lima puluh ribu rupiah.
+140_bright.npy|Harganya lima puluh ribu rupiah.
+140_dark.npy|Harganya lima puluh ribu rupiah.
+140_zoom_out.npy|Harganya lima puluh ribu rupiah.
+140_noise.npy|Harganya lima puluh ribu rupiah.
+141_orig.npy|Kita bertemu jam tujuh malam.
+141_flip.npy|Kita bertemu jam tujuh malam.
+141_bright.npy|Kita bertemu jam tujuh malam.
+141_dark.npy|Kita bertemu jam tujuh malam.
+141_zoom_out.npy|Kita bertemu jam tujuh malam.
+141_noise.npy|Kita bertemu jam tujuh malam.
+142_orig.npy|Kuku kaki kakek kaku kaku.
+142_flip.npy|Kuku kaki kakek kaku kaku.
+142_bright.npy|Kuku kaki kakek kaku kaku.
+142_dark.npy|Kuku kaki kakek kaku kaku.
+142_zoom_out.npy|Kuku kaki kakek kaku kaku.
+142_noise.npy|Kuku kaki kakek kaku kaku.
+143_orig.npy|Ular melingkar di pagar bundar.
+143_flip.npy|Ular melingkar di pagar bundar.
+143_bright.npy|Ular melingkar di pagar bundar.
+143_dark.npy|Ular melingkar di pagar bundar.
+143_zoom_out.npy|Ular melingkar di pagar bundar.
+143_noise.npy|Ular melingkar di pagar bundar.
+144_orig.npy|Buaya membawa bungkusan baru.
+144_flip.npy|Buaya membawa bungkusan baru.
+144_bright.npy|Buaya membawa bungkusan baru.
+144_dark.npy|Buaya membawa bungkusan baru.
+144_zoom_out.npy|Buaya membawa bungkusan baru.
+144_noise.npy|Buaya membawa bungkusan baru.
+145_orig.npy|Papa pulang bawa pepaya pipih.
+145_flip.npy|Papa pulang bawa pepaya pipih.
+145_bright.npy|Papa pulang bawa pepaya pipih.
+145_dark.npy|Papa pulang bawa pepaya pipih.
+145_zoom_out.npy|Papa pulang bawa pepaya pipih.
+145_noise.npy|Papa pulang bawa pepaya pipih.
+146_orig.npy|Toko itu tutup tujuh tahun.
+146_flip.npy|Toko itu tutup tujuh tahun.
+146_bright.npy|Toko itu tutup tujuh tahun.
+146_dark.npy|Toko itu tutup tujuh tahun.
+146_zoom_out.npy|Toko itu tutup tujuh tahun.
+146_noise.npy|Toko itu tutup tujuh tahun.
+147_orig.npy|Saya suka sate sapi surabaya.
+147_flip.npy|Saya suka sate sapi surabaya.
+147_bright.npy|Saya suka sate sapi surabaya.
+147_dark.npy|Saya suka sate sapi surabaya.
+147_zoom_out.npy|Saya suka sate sapi surabaya.
+147_noise.npy|Saya suka sate sapi surabaya.
+148_orig.npy|Halo apa kabar kamu hari ini.
+148_flip.npy|Halo apa kabar kamu hari ini.
+148_bright.npy|Halo apa kabar kamu hari ini.
+148_dark.npy|Halo apa kabar kamu hari ini.
+148_zoom_out.npy|Halo apa kabar kamu hari ini.
+148_noise.npy|Halo apa kabar kamu hari ini.
+149_orig.npy|Saya sedang mengerjakan tugas akhir.
+149_flip.npy|Saya sedang mengerjakan tugas akhir.
+149_bright.npy|Saya sedang mengerjakan tugas akhir.
+149_dark.npy|Saya sedang mengerjakan tugas akhir.
+149_zoom_out.npy|Saya sedang mengerjakan tugas akhir.
+149_noise.npy|Saya sedang mengerjakan tugas akhir.
+150_orig.npy|Tolong ambilkan minum di meja.
+150_flip.npy|Tolong ambilkan minum di meja.
+150_bright.npy|Tolong ambilkan minum di meja.
+150_dark.npy|Tolong ambilkan minum di meja.
+150_zoom_out.npy|Tolong ambilkan minum di meja.
+150_noise.npy|Tolong ambilkan minum di meja.
+151_orig.npy|Cuaca hari ini sangat panas ya.
+151_flip.npy|Cuaca hari ini sangat panas ya.
+151_bright.npy|Cuaca hari ini sangat panas ya.
+151_dark.npy|Cuaca hari ini sangat panas ya.
+151_zoom_out.npy|Cuaca hari ini sangat panas ya.
+151_noise.npy|Cuaca hari ini sangat panas ya.
+152_orig.npy|Jangan lupa makan siang nanti.
+152_flip.npy|Jangan lupa makan siang nanti.
+152_bright.npy|Jangan lupa makan siang nanti.
+152_dark.npy|Jangan lupa makan siang nanti.
+152_zoom_out.npy|Jangan lupa makan siang nanti.
+152_noise.npy|Jangan lupa makan siang nanti.
+153_orig.npy|Saya merasa sangat lelah sekali.
+153_flip.npy|Saya merasa sangat lelah sekali.
+153_bright.npy|Saya merasa sangat lelah sekali.
+153_dark.npy|Saya merasa sangat lelah sekali.
+153_zoom_out.npy|Saya merasa sangat lelah sekali.
+153_noise.npy|Saya merasa sangat lelah sekali.
+154_orig.npy|Kapan kita bisa pergi liburan?
+154_flip.npy|Kapan kita bisa pergi liburan?
+154_bright.npy|Kapan kita bisa pergi liburan?
+154_dark.npy|Kapan kita bisa pergi liburan?
+154_zoom_out.npy|Kapan kita bisa pergi liburan?
+154_noise.npy|Kapan kita bisa pergi liburan?
+155_orig.npy|Buku ini sangat bagus isinya.
+155_flip.npy|Buku ini sangat bagus isinya.
+155_bright.npy|Buku ini sangat bagus isinya.
+155_dark.npy|Buku ini sangat bagus isinya.
+155_zoom_out.npy|Buku ini sangat bagus isinya.
+155_noise.npy|Buku ini sangat bagus isinya.
+156_orig.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+156_flip.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+156_bright.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+156_dark.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+156_zoom_out.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+156_noise.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+157_orig.npy|Pemerintah mengumumkan libur nasional besok lusa.
+157_flip.npy|Pemerintah mengumumkan libur nasional besok lusa.
+157_bright.npy|Pemerintah mengumumkan libur nasional besok lusa.
+157_dark.npy|Pemerintah mengumumkan libur nasional besok lusa.
+157_zoom_out.npy|Pemerintah mengumumkan libur nasional besok lusa.
+157_noise.npy|Pemerintah mengumumkan libur nasional besok lusa.
+158_orig.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+158_flip.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+158_bright.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+158_dark.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+158_zoom_out.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+158_noise.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+159_orig.npy|Kucing itu tidur pulas di atas sofa empuk.
+159_flip.npy|Kucing itu tidur pulas di atas sofa empuk.
+159_bright.npy|Kucing itu tidur pulas di atas sofa empuk.
+159_dark.npy|Kucing itu tidur pulas di atas sofa empuk.
+159_zoom_out.npy|Kucing itu tidur pulas di atas sofa empuk.
+159_noise.npy|Kucing itu tidur pulas di atas sofa empuk.
+160_orig.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+160_flip.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+160_bright.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+160_dark.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+160_zoom_out.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+160_noise.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+161_orig.npy|Buka kunci pintu depan.
+161_flip.npy|Buka kunci pintu depan.
+161_bright.npy|Buka kunci pintu depan.
+161_dark.npy|Buka kunci pintu depan.
+161_zoom_out.npy|Buka kunci pintu depan.
+161_noise.npy|Buka kunci pintu depan.
+162_orig.npy|Nyalakan lampu kamar mandi.
+162_flip.npy|Nyalakan lampu kamar mandi.
+162_bright.npy|Nyalakan lampu kamar mandi.
+162_dark.npy|Nyalakan lampu kamar mandi.
+162_zoom_out.npy|Nyalakan lampu kamar mandi.
+162_noise.npy|Nyalakan lampu kamar mandi.
+163_orig.npy|Matikan televisi sekarang.
+163_flip.npy|Matikan televisi sekarang.
+163_bright.npy|Matikan televisi sekarang.
+163_dark.npy|Matikan televisi sekarang.
+163_zoom_out.npy|Matikan televisi sekarang.
+163_noise.npy|Matikan televisi sekarang.
+164_orig.npy|Putar musik favorit saya.
+164_flip.npy|Putar musik favorit saya.
+164_bright.npy|Putar musik favorit saya.
+164_dark.npy|Putar musik favorit saya.
+164_zoom_out.npy|Putar musik favorit saya.
+164_noise.npy|Putar musik favorit saya.
+165_orig.npy|Berapa suhu udara hari ini?
+165_flip.npy|Berapa suhu udara hari ini?
+165_bright.npy|Berapa suhu udara hari ini?
+165_dark.npy|Berapa suhu udara hari ini?
+165_zoom_out.npy|Berapa suhu udara hari ini?
+165_noise.npy|Berapa suhu udara hari ini?
+166_orig.npy|Pasang alarm jam lima pagi.
+166_flip.npy|Pasang alarm jam lima pagi.
+166_bright.npy|Pasang alarm jam lima pagi.
+166_dark.npy|Pasang alarm jam lima pagi.
+166_zoom_out.npy|Pasang alarm jam lima pagi.
+166_noise.npy|Pasang alarm jam lima pagi.
+167_orig.npy|Satu dua tiga empat lima.
+167_flip.npy|Satu dua tiga empat lima.
+167_bright.npy|Satu dua tiga empat lima.
+167_dark.npy|Satu dua tiga empat lima.
+167_zoom_out.npy|Satu dua tiga empat lima.
+167_noise.npy|Satu dua tiga empat lima.
+168_orig.npy|Enam tujuh delapan sembilan sepuluh.
+168_flip.npy|Enam tujuh delapan sembilan sepuluh.
+168_bright.npy|Enam tujuh delapan sembilan sepuluh.
+168_dark.npy|Enam tujuh delapan sembilan sepuluh.
+168_zoom_out.npy|Enam tujuh delapan sembilan sepuluh.
+168_noise.npy|Enam tujuh delapan sembilan sepuluh.
+169_orig.npy|Saya lahir tahun sembilan puluhan.
+169_flip.npy|Saya lahir tahun sembilan puluhan.
+169_bright.npy|Saya lahir tahun sembilan puluhan.
+169_dark.npy|Saya lahir tahun sembilan puluhan.
+169_zoom_out.npy|Saya lahir tahun sembilan puluhan.
+169_noise.npy|Saya lahir tahun sembilan puluhan.
+170_orig.npy|Harganya lima puluh ribu rupiah.
+170_flip.npy|Harganya lima puluh ribu rupiah.
+170_bright.npy|Harganya lima puluh ribu rupiah.
+170_dark.npy|Harganya lima puluh ribu rupiah.
+170_zoom_out.npy|Harganya lima puluh ribu rupiah.
+170_noise.npy|Harganya lima puluh ribu rupiah.
+171_orig.npy|Kita bertemu jam tujuh malam.
+171_flip.npy|Kita bertemu jam tujuh malam.
+171_bright.npy|Kita bertemu jam tujuh malam.
+171_dark.npy|Kita bertemu jam tujuh malam.
+171_zoom_out.npy|Kita bertemu jam tujuh malam.
+171_noise.npy|Kita bertemu jam tujuh malam.
+172_orig.npy|Kuku kaki kakek kaku kaku.
+172_flip.npy|Kuku kaki kakek kaku kaku.
+172_bright.npy|Kuku kaki kakek kaku kaku.
+172_dark.npy|Kuku kaki kakek kaku kaku.
+172_zoom_out.npy|Kuku kaki kakek kaku kaku.
+172_noise.npy|Kuku kaki kakek kaku kaku.
+173_orig.npy|Ular melingkar di pagar bundar.
+173_flip.npy|Ular melingkar di pagar bundar.
+173_bright.npy|Ular melingkar di pagar bundar.
+173_dark.npy|Ular melingkar di pagar bundar.
+173_zoom_out.npy|Ular melingkar di pagar bundar.
+173_noise.npy|Ular melingkar di pagar bundar.
+174_orig.npy|Buaya membawa bungkusan baru.
+174_flip.npy|Buaya membawa bungkusan baru.
+174_bright.npy|Buaya membawa bungkusan baru.
+174_dark.npy|Buaya membawa bungkusan baru.
+174_zoom_out.npy|Buaya membawa bungkusan baru.
+174_noise.npy|Buaya membawa bungkusan baru.
+175_orig.npy|Papa pulang bawa pepaya pipih.
+175_flip.npy|Papa pulang bawa pepaya pipih.
+175_bright.npy|Papa pulang bawa pepaya pipih.
+175_dark.npy|Papa pulang bawa pepaya pipih.
+175_zoom_out.npy|Papa pulang bawa pepaya pipih.
+175_noise.npy|Papa pulang bawa pepaya pipih.
+176_orig.npy|Toko itu tutup tujuh tahun.
+176_flip.npy|Toko itu tutup tujuh tahun.
+176_bright.npy|Toko itu tutup tujuh tahun.
+176_dark.npy|Toko itu tutup tujuh tahun.
+176_zoom_out.npy|Toko itu tutup tujuh tahun.
+176_noise.npy|Toko itu tutup tujuh tahun.
+177_orig.npy|Saya suka sate sapi surabaya.
+177_flip.npy|Saya suka sate sapi surabaya.
+177_bright.npy|Saya suka sate sapi surabaya.
+177_dark.npy|Saya suka sate sapi surabaya.
+177_zoom_out.npy|Saya suka sate sapi surabaya.
+177_noise.npy|Saya suka sate sapi surabaya.
+178_orig.npy|Halo apa kabar kamu hari ini.
+178_flip.npy|Halo apa kabar kamu hari ini.
+178_bright.npy|Halo apa kabar kamu hari ini.
+178_dark.npy|Halo apa kabar kamu hari ini.
+178_zoom_out.npy|Halo apa kabar kamu hari ini.
+178_noise.npy|Halo apa kabar kamu hari ini.
+179_orig.npy|Saya sedang mengerjakan tugas akhir.
+179_flip.npy|Saya sedang mengerjakan tugas akhir.
+179_bright.npy|Saya sedang mengerjakan tugas akhir.
+179_dark.npy|Saya sedang mengerjakan tugas akhir.
+179_zoom_out.npy|Saya sedang mengerjakan tugas akhir.
+179_noise.npy|Saya sedang mengerjakan tugas akhir.
+180_orig.npy|Tolong ambilkan minum di meja.
+180_flip.npy|Tolong ambilkan minum di meja.
+180_bright.npy|Tolong ambilkan minum di meja.
+180_dark.npy|Tolong ambilkan minum di meja.
+180_zoom_out.npy|Tolong ambilkan minum di meja.
+180_noise.npy|Tolong ambilkan minum di meja.
+181_orig.npy|Cuaca hari ini sangat panas ya.
+181_flip.npy|Cuaca hari ini sangat panas ya.
+181_bright.npy|Cuaca hari ini sangat panas ya.
+181_dark.npy|Cuaca hari ini sangat panas ya.
+181_zoom_out.npy|Cuaca hari ini sangat panas ya.
+181_noise.npy|Cuaca hari ini sangat panas ya.
+182_orig.npy|Jangan lupa makan siang nanti.
+182_flip.npy|Jangan lupa makan siang nanti.
+182_bright.npy|Jangan lupa makan siang nanti.
+182_dark.npy|Jangan lupa makan siang nanti.
+182_zoom_out.npy|Jangan lupa makan siang nanti.
+182_noise.npy|Jangan lupa makan siang nanti.
+183_orig.npy|Saya merasa sangat lelah sekali.
+183_flip.npy|Saya merasa sangat lelah sekali.
+183_bright.npy|Saya merasa sangat lelah sekali.
+183_dark.npy|Saya merasa sangat lelah sekali.
+183_zoom_out.npy|Saya merasa sangat lelah sekali.
+183_noise.npy|Saya merasa sangat lelah sekali.
+184_orig.npy|Kapan kita bisa pergi liburan?
+184_flip.npy|Kapan kita bisa pergi liburan?
+184_bright.npy|Kapan kita bisa pergi liburan?
+184_dark.npy|Kapan kita bisa pergi liburan?
+184_zoom_out.npy|Kapan kita bisa pergi liburan?
+184_noise.npy|Kapan kita bisa pergi liburan?
+185_orig.npy|Buku ini sangat bagus isinya.
+185_flip.npy|Buku ini sangat bagus isinya.
+185_bright.npy|Buku ini sangat bagus isinya.
+185_dark.npy|Buku ini sangat bagus isinya.
+185_zoom_out.npy|Buku ini sangat bagus isinya.
+185_noise.npy|Buku ini sangat bagus isinya.
+186_orig.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+186_flip.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+186_bright.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+186_dark.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+186_zoom_out.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+186_noise.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+187_orig.npy|Pemerintah mengumumkan libur nasional besok lusa.
+187_flip.npy|Pemerintah mengumumkan libur nasional besok lusa.
+187_bright.npy|Pemerintah mengumumkan libur nasional besok lusa.
+187_dark.npy|Pemerintah mengumumkan libur nasional besok lusa.
+187_zoom_out.npy|Pemerintah mengumumkan libur nasional besok lusa.
+187_noise.npy|Pemerintah mengumumkan libur nasional besok lusa.
+188_orig.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+188_flip.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+188_bright.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+188_dark.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+188_zoom_out.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+188_noise.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+189_orig.npy|Kucing itu tidur pulas di atas sofa empuk.
+189_flip.npy|Kucing itu tidur pulas di atas sofa empuk.
+189_bright.npy|Kucing itu tidur pulas di atas sofa empuk.
+189_dark.npy|Kucing itu tidur pulas di atas sofa empuk.
+189_zoom_out.npy|Kucing itu tidur pulas di atas sofa empuk.
+189_noise.npy|Kucing itu tidur pulas di atas sofa empuk.
+190_orig.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+190_flip.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+190_bright.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+190_dark.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+190_zoom_out.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+190_noise.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+191_orig.npy|Buka kunci pintu depan.
+191_flip.npy|Buka kunci pintu depan.
+191_bright.npy|Buka kunci pintu depan.
+191_dark.npy|Buka kunci pintu depan.
+191_zoom_out.npy|Buka kunci pintu depan.
+191_noise.npy|Buka kunci pintu depan.
+192_orig.npy|Nyalakan lampu kamar mandi.
+192_flip.npy|Nyalakan lampu kamar mandi.
+192_bright.npy|Nyalakan lampu kamar mandi.
+192_dark.npy|Nyalakan lampu kamar mandi.
+192_zoom_out.npy|Nyalakan lampu kamar mandi.
+192_noise.npy|Nyalakan lampu kamar mandi.
+193_orig.npy|Matikan televisi sekarang.
+193_flip.npy|Matikan televisi sekarang.
+193_bright.npy|Matikan televisi sekarang.
+193_dark.npy|Matikan televisi sekarang.
+193_zoom_out.npy|Matikan televisi sekarang.
+193_noise.npy|Matikan televisi sekarang.
+194_orig.npy|Putar musik favorit saya.
+194_flip.npy|Putar musik favorit saya.
+194_bright.npy|Putar musik favorit saya.
+194_dark.npy|Putar musik favorit saya.
+194_zoom_out.npy|Putar musik favorit saya.
+194_noise.npy|Putar musik favorit saya.
+195_orig.npy|Berapa suhu udara hari ini?
+195_flip.npy|Berapa suhu udara hari ini?
+195_bright.npy|Berapa suhu udara hari ini?
+195_dark.npy|Berapa suhu udara hari ini?
+195_zoom_out.npy|Berapa suhu udara hari ini?
+195_noise.npy|Berapa suhu udara hari ini?
+196_orig.npy|Pasang alarm jam lima pagi.
+196_flip.npy|Pasang alarm jam lima pagi.
+196_bright.npy|Pasang alarm jam lima pagi.
+196_dark.npy|Pasang alarm jam lima pagi.
+196_zoom_out.npy|Pasang alarm jam lima pagi.
+196_noise.npy|Pasang alarm jam lima pagi.
+197_orig.npy|Satu dua tiga empat lima.
+197_flip.npy|Satu dua tiga empat lima.
+197_bright.npy|Satu dua tiga empat lima.
+197_dark.npy|Satu dua tiga empat lima.
+197_zoom_out.npy|Satu dua tiga empat lima.
+197_noise.npy|Satu dua tiga empat lima.
+198_orig.npy|Enam tujuh delapan sembilan sepuluh.
+198_flip.npy|Enam tujuh delapan sembilan sepuluh.
+198_bright.npy|Enam tujuh delapan sembilan sepuluh.
+198_dark.npy|Enam tujuh delapan sembilan sepuluh.
+198_zoom_out.npy|Enam tujuh delapan sembilan sepuluh.
+198_noise.npy|Enam tujuh delapan sembilan sepuluh.
+199_orig.npy|Saya lahir tahun sembilan puluhan.
+199_flip.npy|Saya lahir tahun sembilan puluhan.
+199_bright.npy|Saya lahir tahun sembilan puluhan.
+199_dark.npy|Saya lahir tahun sembilan puluhan.
+199_zoom_out.npy|Saya lahir tahun sembilan puluhan.
+199_noise.npy|Saya lahir tahun sembilan puluhan.
+200_orig.npy|Harganya lima puluh ribu rupiah.
+200_flip.npy|Harganya lima puluh ribu rupiah.
+200_bright.npy|Harganya lima puluh ribu rupiah.
+200_dark.npy|Harganya lima puluh ribu rupiah.
+200_zoom_out.npy|Harganya lima puluh ribu rupiah.
+200_noise.npy|Harganya lima puluh ribu rupiah.
+201_orig.npy|Kita bertemu jam tujuh malam.
+201_flip.npy|Kita bertemu jam tujuh malam.
+201_bright.npy|Kita bertemu jam tujuh malam.
+201_dark.npy|Kita bertemu jam tujuh malam.
+201_zoom_out.npy|Kita bertemu jam tujuh malam.
+201_noise.npy|Kita bertemu jam tujuh malam.
+202_orig.npy|Kuku kaki kakek kaku kaku.
+202_flip.npy|Kuku kaki kakek kaku kaku.
+202_bright.npy|Kuku kaki kakek kaku kaku.
+202_dark.npy|Kuku kaki kakek kaku kaku.
+202_zoom_out.npy|Kuku kaki kakek kaku kaku.
+202_noise.npy|Kuku kaki kakek kaku kaku.
+203_orig.npy|Ular melingkar di pagar bundar.
+203_flip.npy|Ular melingkar di pagar bundar.
+203_bright.npy|Ular melingkar di pagar bundar.
+203_dark.npy|Ular melingkar di pagar bundar.
+203_zoom_out.npy|Ular melingkar di pagar bundar.
+203_noise.npy|Ular melingkar di pagar bundar.
+204_orig.npy|Buaya membawa bungkusan baru.
+204_flip.npy|Buaya membawa bungkusan baru.
+204_bright.npy|Buaya membawa bungkusan baru.
+204_dark.npy|Buaya membawa bungkusan baru.
+204_zoom_out.npy|Buaya membawa bungkusan baru.
+204_noise.npy|Buaya membawa bungkusan baru.
+205_orig.npy|Papa pulang bawa pepaya pipih.
+205_flip.npy|Papa pulang bawa pepaya pipih.
+205_bright.npy|Papa pulang bawa pepaya pipih.
+205_dark.npy|Papa pulang bawa pepaya pipih.
+205_zoom_out.npy|Papa pulang bawa pepaya pipih.
+205_noise.npy|Papa pulang bawa pepaya pipih.
+207_orig.npy|Saya suka sate sapi surabaya.
+207_flip.npy|Saya suka sate sapi surabaya.
+207_bright.npy|Saya suka sate sapi surabaya.
+207_dark.npy|Saya suka sate sapi surabaya.
+207_zoom_out.npy|Saya suka sate sapi surabaya.
+207_noise.npy|Saya suka sate sapi surabaya.
+208_orig.npy|Halo apa kabar kamu hari ini.
+208_flip.npy|Halo apa kabar kamu hari ini.
+208_bright.npy|Halo apa kabar kamu hari ini.
+208_dark.npy|Halo apa kabar kamu hari ini.
+208_zoom_out.npy|Halo apa kabar kamu hari ini.
+208_noise.npy|Halo apa kabar kamu hari ini.
+209_orig.npy|Saya sedang mengerjakan tugas akhir.
+209_flip.npy|Saya sedang mengerjakan tugas akhir.
+209_bright.npy|Saya sedang mengerjakan tugas akhir.
+209_dark.npy|Saya sedang mengerjakan tugas akhir.
+209_zoom_out.npy|Saya sedang mengerjakan tugas akhir.
+209_noise.npy|Saya sedang mengerjakan tugas akhir.
+210_orig.npy|Tolong ambilkan minum di meja.
+210_flip.npy|Tolong ambilkan minum di meja.
+210_bright.npy|Tolong ambilkan minum di meja.
+210_dark.npy|Tolong ambilkan minum di meja.
+210_zoom_out.npy|Tolong ambilkan minum di meja.
+210_noise.npy|Tolong ambilkan minum di meja.
+211_orig.npy|Cuaca hari ini sangat panas ya.
+211_flip.npy|Cuaca hari ini sangat panas ya.
+211_bright.npy|Cuaca hari ini sangat panas ya.
+211_dark.npy|Cuaca hari ini sangat panas ya.
+211_zoom_out.npy|Cuaca hari ini sangat panas ya.
+211_noise.npy|Cuaca hari ini sangat panas ya.
+212_orig.npy|Jangan lupa makan siang nanti.
+212_flip.npy|Jangan lupa makan siang nanti.
+212_bright.npy|Jangan lupa makan siang nanti.
+212_dark.npy|Jangan lupa makan siang nanti.
+212_zoom_out.npy|Jangan lupa makan siang nanti.
+212_noise.npy|Jangan lupa makan siang nanti.
+213_orig.npy|Saya merasa sangat lelah sekali.
+213_flip.npy|Saya merasa sangat lelah sekali.
+213_bright.npy|Saya merasa sangat lelah sekali.
+213_dark.npy|Saya merasa sangat lelah sekali.
+213_zoom_out.npy|Saya merasa sangat lelah sekali.
+213_noise.npy|Saya merasa sangat lelah sekali.
+214_orig.npy|Kapan kita bisa pergi liburan?
+214_flip.npy|Kapan kita bisa pergi liburan?
+214_bright.npy|Kapan kita bisa pergi liburan?
+214_dark.npy|Kapan kita bisa pergi liburan?
+214_zoom_out.npy|Kapan kita bisa pergi liburan?
+214_noise.npy|Kapan kita bisa pergi liburan?
+215_orig.npy|Buku ini sangat bagus isinya.
+215_flip.npy|Buku ini sangat bagus isinya.
+215_bright.npy|Buku ini sangat bagus isinya.
+215_dark.npy|Buku ini sangat bagus isinya.
+215_zoom_out.npy|Buku ini sangat bagus isinya.
+215_noise.npy|Buku ini sangat bagus isinya.
+216_orig.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+216_flip.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+216_bright.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+216_dark.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+216_zoom_out.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+216_noise.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+217_orig.npy|Pemerintah mengumumkan libur nasional besok lusa.
+217_flip.npy|Pemerintah mengumumkan libur nasional besok lusa.
+217_bright.npy|Pemerintah mengumumkan libur nasional besok lusa.
+217_dark.npy|Pemerintah mengumumkan libur nasional besok lusa.
+217_zoom_out.npy|Pemerintah mengumumkan libur nasional besok lusa.
+217_noise.npy|Pemerintah mengumumkan libur nasional besok lusa.
+218_orig.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+218_flip.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+218_bright.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+218_dark.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+218_zoom_out.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+218_noise.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+219_orig.npy|Kucing itu tidur pulas di atas sofa empuk.
+219_flip.npy|Kucing itu tidur pulas di atas sofa empuk.
+219_bright.npy|Kucing itu tidur pulas di atas sofa empuk.
+219_dark.npy|Kucing itu tidur pulas di atas sofa empuk.
+219_zoom_out.npy|Kucing itu tidur pulas di atas sofa empuk.
+219_noise.npy|Kucing itu tidur pulas di atas sofa empuk.
+220_orig.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+220_flip.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+220_bright.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+220_dark.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+220_zoom_out.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+220_noise.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+221_orig.npy|Buka kunci pintu depan.
+221_flip.npy|Buka kunci pintu depan.
+221_bright.npy|Buka kunci pintu depan.
+221_dark.npy|Buka kunci pintu depan.
+221_zoom_out.npy|Buka kunci pintu depan.
+221_noise.npy|Buka kunci pintu depan.
+222_orig.npy|Nyalakan lampu kamar mandi.
+222_flip.npy|Nyalakan lampu kamar mandi.
+222_bright.npy|Nyalakan lampu kamar mandi.
+222_dark.npy|Nyalakan lampu kamar mandi.
+222_zoom_out.npy|Nyalakan lampu kamar mandi.
+222_noise.npy|Nyalakan lampu kamar mandi.
+223_orig.npy|Matikan televisi sekarang.
+223_flip.npy|Matikan televisi sekarang.
+223_bright.npy|Matikan televisi sekarang.
+223_dark.npy|Matikan televisi sekarang.
+223_zoom_out.npy|Matikan televisi sekarang.
+223_noise.npy|Matikan televisi sekarang.
+224_orig.npy|Putar musik favorit saya.
+224_flip.npy|Putar musik favorit saya.
+224_bright.npy|Putar musik favorit saya.
+224_dark.npy|Putar musik favorit saya.
+224_zoom_out.npy|Putar musik favorit saya.
+224_noise.npy|Putar musik favorit saya.
+225_orig.npy|Berapa suhu udara hari ini?
+225_flip.npy|Berapa suhu udara hari ini?
+225_bright.npy|Berapa suhu udara hari ini?
+225_dark.npy|Berapa suhu udara hari ini?
+225_zoom_out.npy|Berapa suhu udara hari ini?
+225_noise.npy|Berapa suhu udara hari ini?
+226_orig.npy|Pasang alarm jam lima pagi.
+226_flip.npy|Pasang alarm jam lima pagi.
+226_bright.npy|Pasang alarm jam lima pagi.
+226_dark.npy|Pasang alarm jam lima pagi.
+226_zoom_out.npy|Pasang alarm jam lima pagi.
+226_noise.npy|Pasang alarm jam lima pagi.
+227_orig.npy|Satu dua tiga empat lima.
+227_flip.npy|Satu dua tiga empat lima.
+227_bright.npy|Satu dua tiga empat lima.
+227_dark.npy|Satu dua tiga empat lima.
+227_zoom_out.npy|Satu dua tiga empat lima.
+227_noise.npy|Satu dua tiga empat lima.
+228_orig.npy|Enam tujuh delapan sembilan sepuluh.
+228_flip.npy|Enam tujuh delapan sembilan sepuluh.
+228_bright.npy|Enam tujuh delapan sembilan sepuluh.
+228_dark.npy|Enam tujuh delapan sembilan sepuluh.
+228_zoom_out.npy|Enam tujuh delapan sembilan sepuluh.
+228_noise.npy|Enam tujuh delapan sembilan sepuluh.
+229_orig.npy|Saya lahir tahun sembilan puluhan.
+229_flip.npy|Saya lahir tahun sembilan puluhan.
+229_bright.npy|Saya lahir tahun sembilan puluhan.
+229_dark.npy|Saya lahir tahun sembilan puluhan.
+229_zoom_out.npy|Saya lahir tahun sembilan puluhan.
+229_noise.npy|Saya lahir tahun sembilan puluhan.
+230_orig.npy|Harganya lima puluh ribu rupiah.
+230_flip.npy|Harganya lima puluh ribu rupiah.
+230_bright.npy|Harganya lima puluh ribu rupiah.
+230_dark.npy|Harganya lima puluh ribu rupiah.
+230_zoom_out.npy|Harganya lima puluh ribu rupiah.
+230_noise.npy|Harganya lima puluh ribu rupiah.
+231_orig.npy|Kita bertemu jam tujuh malam.
+231_flip.npy|Kita bertemu jam tujuh malam.
+231_bright.npy|Kita bertemu jam tujuh malam.
+231_dark.npy|Kita bertemu jam tujuh malam.
+231_zoom_out.npy|Kita bertemu jam tujuh malam.
+231_noise.npy|Kita bertemu jam tujuh malam.
+232_orig.npy|Kuku kaki kakek kaku kaku.
+232_flip.npy|Kuku kaki kakek kaku kaku.
+232_bright.npy|Kuku kaki kakek kaku kaku.
+232_dark.npy|Kuku kaki kakek kaku kaku.
+232_zoom_out.npy|Kuku kaki kakek kaku kaku.
+232_noise.npy|Kuku kaki kakek kaku kaku.
+233_orig.npy|Ular melingkar di pagar bundar.
+233_flip.npy|Ular melingkar di pagar bundar.
+233_bright.npy|Ular melingkar di pagar bundar.
+233_dark.npy|Ular melingkar di pagar bundar.
+233_zoom_out.npy|Ular melingkar di pagar bundar.
+233_noise.npy|Ular melingkar di pagar bundar.
+234_orig.npy|Buaya membawa bungkusan baru.
+234_flip.npy|Buaya membawa bungkusan baru.
+234_bright.npy|Buaya membawa bungkusan baru.
+234_dark.npy|Buaya membawa bungkusan baru.
+234_zoom_out.npy|Buaya membawa bungkusan baru.
+234_noise.npy|Buaya membawa bungkusan baru.
+235_orig.npy|Papa pulang bawa pepaya pipih.
+235_flip.npy|Papa pulang bawa pepaya pipih.
+235_bright.npy|Papa pulang bawa pepaya pipih.
+235_dark.npy|Papa pulang bawa pepaya pipih.
+235_zoom_out.npy|Papa pulang bawa pepaya pipih.
+235_noise.npy|Papa pulang bawa pepaya pipih.
+236_orig.npy|Toko itu tutup tujuh tahun.
+236_flip.npy|Toko itu tutup tujuh tahun.
+236_bright.npy|Toko itu tutup tujuh tahun.
+236_dark.npy|Toko itu tutup tujuh tahun.
+236_zoom_out.npy|Toko itu tutup tujuh tahun.
+236_noise.npy|Toko itu tutup tujuh tahun.
+237_orig.npy|Saya suka sate sapi surabaya.
+237_flip.npy|Saya suka sate sapi surabaya.
+237_bright.npy|Saya suka sate sapi surabaya.
+237_dark.npy|Saya suka sate sapi surabaya.
+237_zoom_out.npy|Saya suka sate sapi surabaya.
+237_noise.npy|Saya suka sate sapi surabaya.
+238_orig.npy|Halo apa kabar kamu hari ini.
+238_flip.npy|Halo apa kabar kamu hari ini.
+238_bright.npy|Halo apa kabar kamu hari ini.
+238_dark.npy|Halo apa kabar kamu hari ini.
+238_zoom_out.npy|Halo apa kabar kamu hari ini.
+238_noise.npy|Halo apa kabar kamu hari ini.
+239_orig.npy|Saya sedang mengerjakan tugas akhir.
+239_flip.npy|Saya sedang mengerjakan tugas akhir.
+239_bright.npy|Saya sedang mengerjakan tugas akhir.
+239_dark.npy|Saya sedang mengerjakan tugas akhir.
+239_zoom_out.npy|Saya sedang mengerjakan tugas akhir.
+239_noise.npy|Saya sedang mengerjakan tugas akhir.
+240_orig.npy|Tolong ambilkan minum di meja.
+240_flip.npy|Tolong ambilkan minum di meja.
+240_bright.npy|Tolong ambilkan minum di meja.
+240_dark.npy|Tolong ambilkan minum di meja.
+240_zoom_out.npy|Tolong ambilkan minum di meja.
+240_noise.npy|Tolong ambilkan minum di meja.
+241_orig.npy|Cuaca hari ini sangat panas ya.
+241_flip.npy|Cuaca hari ini sangat panas ya.
+241_bright.npy|Cuaca hari ini sangat panas ya.
+241_dark.npy|Cuaca hari ini sangat panas ya.
+241_zoom_out.npy|Cuaca hari ini sangat panas ya.
+241_noise.npy|Cuaca hari ini sangat panas ya.
+242_orig.npy|Jangan lupa makan siang nanti.
+242_flip.npy|Jangan lupa makan siang nanti.
+242_bright.npy|Jangan lupa makan siang nanti.
+242_dark.npy|Jangan lupa makan siang nanti.
+242_zoom_out.npy|Jangan lupa makan siang nanti.
+242_noise.npy|Jangan lupa makan siang nanti.
+243_orig.npy|Saya merasa sangat lelah sekali.
+243_flip.npy|Saya merasa sangat lelah sekali.
+243_bright.npy|Saya merasa sangat lelah sekali.
+243_dark.npy|Saya merasa sangat lelah sekali.
+243_zoom_out.npy|Saya merasa sangat lelah sekali.
+243_noise.npy|Saya merasa sangat lelah sekali.
+244_orig.npy|Kapan kita bisa pergi liburan?
+244_flip.npy|Kapan kita bisa pergi liburan?
+244_bright.npy|Kapan kita bisa pergi liburan?
+244_dark.npy|Kapan kita bisa pergi liburan?
+244_zoom_out.npy|Kapan kita bisa pergi liburan?
+244_noise.npy|Kapan kita bisa pergi liburan?
+245_orig.npy|Buku ini sangat bagus isinya.
+245_flip.npy|Buku ini sangat bagus isinya.
+245_bright.npy|Buku ini sangat bagus isinya.
+245_dark.npy|Buku ini sangat bagus isinya.
+245_zoom_out.npy|Buku ini sangat bagus isinya.
+245_noise.npy|Buku ini sangat bagus isinya.
+246_orig.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+246_flip.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+246_bright.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+246_dark.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+246_zoom_out.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+246_noise.npy|Perkembangan teknologi kecerdasan buatan sangat pesat.
+247_orig.npy|Pemerintah mengumumkan libur nasional besok lusa.
+247_flip.npy|Pemerintah mengumumkan libur nasional besok lusa.
+247_bright.npy|Pemerintah mengumumkan libur nasional besok lusa.
+247_dark.npy|Pemerintah mengumumkan libur nasional besok lusa.
+247_zoom_out.npy|Pemerintah mengumumkan libur nasional besok lusa.
+247_noise.npy|Pemerintah mengumumkan libur nasional besok lusa.
+248_orig.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+248_flip.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+248_bright.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+248_dark.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+248_zoom_out.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+248_noise.npy|Mahasiswa sedang melakukan penelitian di laboratorium.
+249_orig.npy|Kucing itu tidur pulas di atas sofa empuk.
+249_flip.npy|Kucing itu tidur pulas di atas sofa empuk.
+249_bright.npy|Kucing itu tidur pulas di atas sofa empuk.
+249_dark.npy|Kucing itu tidur pulas di atas sofa empuk.
+249_zoom_out.npy|Kucing itu tidur pulas di atas sofa empuk.
+249_noise.npy|Kucing itu tidur pulas di atas sofa empuk.
+250_orig.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+250_flip.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+250_bright.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+250_dark.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+250_zoom_out.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
+250_noise.npy|Olahraga pagi sangat baik untuk kesehatan jantung.
