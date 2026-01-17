@@ -1,11 +1,10 @@
-streamlit
-opencv-python-headless
-mediapipe==0.10.9
-protobuf==3.20.3
+--extra-index-url https://download.pytorch.org/whl/cpu
 numpy
 pandas
 gdown
-torchinfo
---extra-index-url https://download.pytorch.org/whl/cpu
+protobuf==3.20.3
+streamlit
+opencv-python-headless
+mediapipe==0.10.9
 torch
 torchvision
