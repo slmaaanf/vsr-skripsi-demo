@@ -1,0 +1,17 @@
+# Abaikan Folder Sistem
+__pycache__/
+*.pyc
+.vscode/
+.env
+
+# Abaikan Data Video (Berat!)
+data/
+*.mp4
+
+# Abaikan Model Besar (PENTING!)
+checkpoints/
+*.pth
+*.onnx
+
+# Abaikan file log local
+*.csv

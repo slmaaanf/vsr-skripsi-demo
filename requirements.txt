@@ -1,0 +1,8 @@
+streamlit
+opencv-python-headless
+mediapipe
+torch
+numpy
+pandas
+gdown
+torchinfo
