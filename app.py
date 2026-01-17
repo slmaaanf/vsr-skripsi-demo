@@ -1,5 +1,5 @@
 import os
-# --- FIX WAJIB WINDOWS (Harus paling atas) ---
+# --- CONFIG WAJIB ---
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 import streamlit as st
@@ -7,61 +7,68 @@ import cv2
 import torch
 import numpy as np
 import mediapipe as mp
-import pandas as pd
-import time
-from datetime import datetime
+import gdown  # Library untuk download dari GDrive
 from model import VSRModel
 
 # ==========================================
-# KONFIGURASI
+# 1. KONFIGURASI PATH & CLOUD
 # ==========================================
-st.set_page_config(page_title="VSR Smart Lock", page_icon="🔐", layout="wide")
+st.set_page_config(page_title="VSR Smart Lock", page_icon="🔐")
 
-GDRIVE_FILE_ID = '1qSCv7cQfqLP5Jznt_SfVNh6coK2Id8DI'
+# ID Google Drive (File .pth kamu)
+GDRIVE_FILE_ID = '1qSCv7cQfqLP5Jznt_SfVNh6coK2Id8DI' 
 
-# Path (Sesuaikan jika perlu)
-CHECKPOINT_PATH = r"D:\vsr\checkpoints\vsr_final_hard.pth"
-LABEL_PRIVATE = r"D:\vsr\data\labels\private_final_hard.csv"
-LOG_FILE = "maintenance_log.csv"
-DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+# --- PERBAIKAN PATH (PENTING!) ---
+# Jangan pakai D:\vsr... Pakai nama file saja.
+CHECKPOINT_PATH = "vsr_final_hard.pth" 
+# Kita tidak butuh CSV label lagi, karena label sudah tersimpan di dalam .pth
+DEVICE = torch.device("cpu") 
 
 IMG_H, IMG_W, MAX_FRAMES = 50, 100, 75
 mp_face_mesh = mp.solutions.face_mesh
 LIPS_INDICES = [61, 146, 91, 181, 84, 17, 314, 405, 321, 375, 291, 308, 324, 318, 402, 317, 14, 87, 178, 88, 95]
 
 # ==========================================
-# ENGINE (CACHED)
+# 2. LOGIKA DOWNLOAD & LOAD ENGINE
 # ==========================================
 @st.cache_resource
 def load_engine():
-    if not os.path.exists(CHECKPOINT_PATH): return None, None, None
+    # A. Download Model Otomatis dari Google Drive
+    if not os.path.exists(CHECKPOINT_PATH):
+        url = f'https://drive.google.com/uc?id={GDRIVE_FILE_ID}'
+        with st.spinner("Sedang mengunduh Model AI (±100MB)... Harap tunggu sebentar."):
+            try:
+                gdown.download(url, CHECKPOINT_PATH, quiet=False)
+                st.success("Model berhasil diunduh!")
+            except Exception as e:
+                st.error(f"Gagal download model: {e}")
+                return None, None
 
+    # B. Load Model ke Memory
+    if not os.path.exists(CHECKPOINT_PATH): return None, None
+    
     try:
+        # Load CPU Only (Cloud jarang ada GPU)
         ckpt = torch.load(CHECKPOINT_PATH, map_location=DEVICE)
-        class_to_idx = ckpt.get('class_to_idx')
-        if not class_to_idx: return None, None, None
         
+        # Ambil daftar kata (label) langsung dari dalam otak model
+        class_to_idx = ckpt.get('class_to_idx') 
         idx_to_class = {v: k for k, v in class_to_idx.items()}
         num_classes = len(class_to_idx)
         
+        # Inisialisasi Arsitektur
         model = VSRModel(num_classes=num_classes).to(DEVICE)
         model.load_state_dict(ckpt['model_state_dict'])
         model.eval()
         
-        # Filter Private
-        private_indices = []
-        if os.path.exists(LABEL_PRIVATE):
-            try: df = pd.read_csv(LABEL_PRIVATE, sep='|', header=None, names=['fn', 'text'])
-            except: df = pd.read_csv(LABEL_PRIVATE)
-            texts = df['text'].astype(str).str.strip().unique()
-            for t in texts:
-                if t in class_to_idx: private_indices.append(class_to_idx[t])
-                
-        return model, idx_to_class, private_indices
+        return model, idx_to_class
     except Exception as e:
         st.error(f"Error loading model: {e}")
-        return None, None, None
+        return None, None
 
+# ==========================================
+# 3. PREPROCESSING (Updated: Fix Warna & FPS)
+# ==========================================
 def get_crop(frame, landmarks):
     h, w, _ = frame.shape
     lips_x = [int(landmarks.landmark[i].x * w) for i in LIPS_INDICES]
@@ -75,19 +82,18 @@ def get_crop(frame, landmarks):
     target_h = int(target_w / 2)
     
     x1, y1 = center_x - target_w//2, center_y - target_h//2
+    # Pastikan crop tidak keluar batas gambar
     return frame[max(0,y1):min(h,y1+target_h), max(0,x1):min(w,x1+target_w)]
 
 def process_video(video_path):
     cap = cv2.VideoCapture(video_path)
-    
     frames, debug_crop = [], None
     
-    # Deteksi FPS video
+    # Auto-Fix FPS (Tangani video 60fps dari HP)
     fps = cap.get(cv2.CAP_PROP_FPS)
-    # Jika video 60fps, kita skip frame biar jadi mirip 30fps
     skip_rate = 2 if fps > 50 else 1
     
-    # CLAHE: Alat ajaib penajam kontras (Bibir gelap jadi terang)
+    # Auto-Contrast (CLAHE) - Agar bibir jelas meski gelap
     clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8,8))
     
     count = 0
@@ -97,34 +103,29 @@ def process_video(video_path):
             if not ret: break
             
             count += 1
-            if count % skip_rate != 0: continue # Skip frame jika perlu
+            if count % skip_rate != 0: continue 
 
-            # 1. Konversi BGR ke RGB (FIX BIBIR BIRU)
-            rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-            res = face_mesh.process(rgb_frame)
+            # Fix Warna: BGR ke RGB
+            rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+            res = face_mesh.process(rgb)
             
             if res.multi_face_landmarks:
-                # Crop bibir
-                crop = get_crop(rgb_frame, res.multi_face_landmarks[0]) # Crop dari RGB
-                
+                crop = get_crop(rgb, res.multi_face_landmarks[0]) # Crop dari RGB
                 if crop.size > 0:
-                    # 2. Proses Grayscale yang BENAR dari RGB
+                    # Grayscale
                     gray = cv2.cvtColor(crop, cv2.COLOR_RGB2GRAY)
-                    
-                    # 3. PERTAJAM KONTRAS
+                    # Pertajam
                     enhanced = clahe.apply(gray)
-                    
                     # Resize
                     resized = cv2.resize(enhanced, (IMG_W, IMG_H))
-                    frames.append(resized/255.0)
                     
-                    # Simpan crop berwarna untuk visualisasi (sudah RGB)
+                    frames.append(resized/255.0)
                     if debug_crop is None: debug_crop = crop
                     
     cap.release()
     if not frames: return None, None
     
-    # Padding Logic (Sama)
+    # Padding / Truncating
     arr = np.array(frames)
     T = len(arr)
     if T > MAX_FRAMES:
@@ -133,93 +134,56 @@ def process_video(video_path):
     else:
         padding = np.zeros((MAX_FRAMES - T, IMG_H, IMG_W), dtype=np.float32)
         final = np.concatenate((arr, padding), axis=0)
-        
     return final, debug_crop
 
-def log_feedback(filename, text, conf, status):
-    ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    header = not os.path.exists(LOG_FILE)
-    with open(LOG_FILE, "a") as f:
-        if header: f.write("Timestamp,File,Prediction,Confidence,Status\n")
-        f.write(f"{ts},{filename},{text},{conf:.2f},{status}\n")
-
 # ==========================================
-# USER INTERFACE
+# 4. TAMPILAN UTAMA (UI)
 # ==========================================
-st.sidebar.title("⚙️ Panel Kontrol")
-st.sidebar.info("Model: ResNet50 + BiGRU")
-conf_threshold = st.sidebar.slider("Batas Minimum Confidence", 0, 100, 10)
+st.title("🔐 VSR Smart Lock System")
+st.markdown("### Demo Skripsi: Visual Speech Recognition")
 
-st.title("🔐 VSR Access Control")
-st.markdown("### *Visual Speech Recognition System*")
-
-model, idx_to_class, private_indices = load_engine()
+# Load Model
+model, idx_to_class = load_engine()
 
 if model:
-    col_upload, col_result = st.columns([1, 1])
+    uploaded_file = st.file_uploader("Upload Video (Max 3 Detik)", type=["mp4"])
     
-    with col_upload:
-        st.subheader("1. Input Video")
-        uploaded_file = st.file_uploader("Upload MP4 (Max 3 detik)", type=["mp4"])
+    if uploaded_file:
+        # Simpan sementara
+        tfile = "temp_input.mp4"
+        with open(tfile, "wb") as f: f.write(uploaded_file.getbuffer())
         
-        if uploaded_file:
-            tfile = os.path.join("temp.mp4")
-            with open(tfile, "wb") as f: f.write(uploaded_file.getbuffer())
+        c1, c2 = st.columns([1, 1])
+        with c1:
             st.video(uploaded_file)
-            
-            if st.button("🚀 PROSES PREDIKSI", use_container_width=True):
-                with st.spinner("Membaca gerak bibir..."):
-                    inp, viz = process_video(tfile)
-                    
-                    if inp is not None:
-                        # Inference
-                        tensor = torch.FloatTensor(inp).unsqueeze(0).unsqueeze(0).to(DEVICE).permute(0,1,2,3,4)
-                        with torch.no_grad():
-                            out = model(tensor)
-                            mask = torch.ones_like(out) * float('-inf')
-                            if private_indices: mask[:, private_indices] = 0
-                            probs = torch.nn.functional.softmax(out+mask, dim=1)
-                            conf, idx = torch.max(probs, 1)
-                            
-                            p_text = idx_to_class.get(idx.item(), "Unknown")
-                            p_conf = conf.item() * 100
-                            
-                        # Simpan hasil ke session state biar gak hilang pas klik feedback
-                        st.session_state['result'] = (p_text, p_conf, viz, uploaded_file.name)
-                    else:
-                        st.error("Wajah tidak terdeteksi!")
-
-    with col_result:
-        st.subheader("2. Hasil Analisis")
-        if 'result' in st.session_state:
-            res_text, res_conf, res_viz, fname = st.session_state['result']
-            
-            # Tampilkan Mata AI
-            st.image(res_viz, caption="Input Visual Model", width=250)
-            
-            # Tampilkan Hasil
-            if res_conf >= conf_threshold:
-                if "buka kunci" in res_text.lower():
-                    st.success(f"🔓 AKSES DITERIMA")
-                else:
-                    st.warning(f"🔒 AKSES DITOLAK (Kalimat salah)")
-            else:
-                st.error(f"⚠️ TIDAK YAKIN (Di bawah {conf_threshold}%)")
+        
+        if st.button("🔍 ANALISIS AKSES", use_container_width=True):
+            with st.spinner("Membaca gerak bibir..."):
+                inp, viz = process_video(tfile)
                 
-            st.markdown(f"**Prediksi:** `{res_text}`")
-            st.progress(min(int(res_conf), 100))
-            st.caption(f"Confidence: {res_conf:.2f}%")
-            
-            # Feedback
-            st.markdown("---")
-            st.write("**Apakah prediksi ini benar?** (Data untuk Maintenance)")
-            c1, c2 = st.columns(2)
-            if c1.button("✅ BENAR"):
-                log_feedback(fname, res_text, res_conf, "Correct")
-                st.toast("Feedback tersimpan!")
-            if c2.button("❌ SALAH"):
-                log_feedback(fname, res_text, res_conf, "Wrong")
-                st.toast("Laporan tersimpan untuk training ulang.")
-
+                if inp is not None:
+                    # Prediksi
+                    tensor = torch.FloatTensor(inp).unsqueeze(0).unsqueeze(0).to(DEVICE).permute(0,1,2,3,4)
+                    with torch.no_grad():
+                        out = model(tensor)
+                        probs = torch.nn.functional.softmax(out, dim=1)
+                        conf, idx = torch.max(probs, 1)
+                        
+                        p_text = idx_to_class.get(idx.item(), "Unknown")
+                        p_conf = conf.item() * 100
+                    
+                    # Tampilkan Hasil di Kolom Kanan
+                    with c2:
+                        st.image(viz, width=150, caption="Mata AI (Enhanced)")
+                        st.markdown(f"**Prediksi:** `{p_text}`")
+                        st.caption(f"Confidence: {p_conf:.2f}%")
+                        
+                        # LOGIKA KUNCI PINTU
+                        if "buka kunci" in p_text.lower():
+                            st.success("🔓 **AKSES DITERIMA**\nPintu Terbuka.")
+                        else:
+                            st.error("🔒 **AKSES DITOLAK**\nKalimat salah.")
+                else:
+                    st.warning("Wajah tidak terdeteksi dalam video.")
 else:
-    st.error("Gagal memuat model. Pastikan file .pth dan .csv ada.")
+    st.info("Menunggu model siap...")
