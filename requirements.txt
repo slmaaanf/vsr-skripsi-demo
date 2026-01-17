@@ -1,9 +1,11 @@
 --extra-index-url https://download.pytorch.org/whl/cpu
 streamlit
 opencv-python-headless
-mediapipe
 numpy
 pandas
 gdown
+# 👇 INI KUNCINYA: Pakai protobuf versi 3.20.3 agar MediaPipe jalan
+protobuf==3.20.3
+mediapipe==0.10.9
 torch
 torchvision
