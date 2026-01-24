@@ -1,17 +1,28 @@
-# Abaikan Folder Sistem
+# 1. Folder Sistem & Cache (Wajib Abaikan)
 __pycache__/
 *.pyc
 .vscode/
 .env
+.DS_Store
 
-# Abaikan Data Video (Berat!)
+# 2. Data Mentah & Hasil Proses (Berat!)
+# Kita abaikan folder data agar GitHub tidak penuh
 data/
 *.mp4
+*.npy
+*.npz
 
-# Abaikan Model Besar (PENTING!)
+# 3. Model Besar (Simpan di Google Drive saja)
 checkpoints/
 *.pth
 *.onnx
+*.h5
 
-# Abaikan file log local
+# 4. Log & File Sementara
+# Abaikan semua CSV, KECUALI private.csv
 *.csv
+!private.csv
+
+# 5. File Gambar Debugging (Jika ada)
+*.png
+*.jpg
