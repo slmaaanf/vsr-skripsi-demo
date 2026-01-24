@@ -13,6 +13,48 @@ import pandas as pd
 import re
 
 # ===============================
+# UPDATE BAGIAN LOAD MODEL INI
+# ===============================
+@st.cache_resource
+def load_model():
+    # Cek apakah file ada? Jika tidak, download dari Drive
+    if not os.path.exists(MODEL_PATH):
+        st.warning("📥 Sedang mendownload model dari Cloud (Google Drive)... Mohon tunggu ±1 menit.")
+        
+        # ID File dari Link Drive kamu
+        file_id = '1t4Z9NwM-LCRAYw5aM9L1jRS0AgNsV2sY'
+        url = f'https://drive.google.com/uc?id={file_id}'
+        
+        try:
+            output = gdown.download(url, MODEL_PATH, quiet=False)
+            if output:
+                st.success("✅ Download selesai!")
+            else:
+                st.error("❌ Gagal download. Cek permission Google Drive.")
+                st.stop()
+        except Exception as e:
+            st.error(f"Error saat download: {e}")
+            st.stop()
+
+    # Load Label
+    le = get_fixed_labels()
+    num_classes = len(le.classes_)
+    
+    # Load Arsitektur
+    model = ResNetBiGRU(num_classes=num_classes).to(DEVICE)
+    
+    # Load Weights
+    # Di Cloud biasanya pakai CPU, jadi map_location='cpu' wajib
+    if torch.cuda.is_available():
+        checkpoint = torch.load(MODEL_PATH)
+    else:
+        checkpoint = torch.load(MODEL_PATH, map_location='cpu')
+    
+    model.load_state_dict(checkpoint)
+    model.eval()
+    return model, le
+
+# ===============================
 # 1. KONFIGURASI HALAMAN
 # ===============================
 st.set_page_config(
