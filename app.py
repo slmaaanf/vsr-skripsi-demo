@@ -11,48 +11,7 @@ import tempfile
 import time
 import pandas as pd
 import re
-
-# ===============================
-# UPDATE BAGIAN LOAD MODEL INI
-# ===============================
-@st.cache_resource
-def load_model():
-    # Cek apakah file ada? Jika tidak, download dari Drive
-    if not os.path.exists(MODEL_PATH):
-        st.warning("📥 Sedang mendownload model dari Cloud (Google Drive)... Mohon tunggu ±1 menit.")
-        
-        # ID File dari Link Drive kamu
-        file_id = '1t4Z9NwM-LCRAYw5aM9L1jRS0AgNsV2sY'
-        url = f'https://drive.google.com/uc?id={file_id}'
-        
-        try:
-            output = gdown.download(url, MODEL_PATH, quiet=False)
-            if output:
-                st.success("✅ Download selesai!")
-            else:
-                st.error("❌ Gagal download. Cek permission Google Drive.")
-                st.stop()
-        except Exception as e:
-            st.error(f"Error saat download: {e}")
-            st.stop()
-
-    # Load Label
-    le = get_fixed_labels()
-    num_classes = len(le.classes_)
-    
-    # Load Arsitektur
-    model = ResNetBiGRU(num_classes=num_classes).to(DEVICE)
-    
-    # Load Weights
-    # Di Cloud biasanya pakai CPU, jadi map_location='cpu' wajib
-    if torch.cuda.is_available():
-        checkpoint = torch.load(MODEL_PATH)
-    else:
-        checkpoint = torch.load(MODEL_PATH, map_location='cpu')
-    
-    model.load_state_dict(checkpoint)
-    model.eval()
-    return model, le
+import gdown  # Pastikan ini ada di requirements.txt
 
 # ===============================
 # 1. KONFIGURASI HALAMAN
@@ -66,7 +25,7 @@ st.set_page_config(
 # Constants
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 MODEL_PATH = "vsr_final_hard.pth"
-CSV_PATH = "private.csv"  # Pastikan file ini ada di folder yang sama
+CSV_PATH = "private.csv" 
 IMG_H, IMG_W = 50, 100
 TARGET_FRAMES = 150
 PADDING = 10
@@ -76,21 +35,18 @@ mp_face_mesh = mp.solutions.face_mesh
 LIP_LANDMARKS = [61, 146, 91, 181, 84, 17, 314, 405, 321, 375, 291, 308, 324, 318, 402, 317, 14, 87, 178, 88, 95]
 
 # ===============================
-# 2. LOGIC MAPPING KALIMAT (BARU)
+# 2. LOGIC LOAD DATA
 # ===============================
 @st.cache_data
 def load_sentence_map():
-    """Membaca CSV untuk mengubah 'bukapintu' menjadi 'Buka pintu'"""
     mapping = {}
+    # Jika di Cloud tidak ada private.csv, kita buat dummy mapping atau download juga
+    # Untuk sekarang kita asumsikan private.csv sudah di-upload ke GitHub
     if os.path.exists(CSV_PATH):
         try:
             df = pd.read_csv(CSV_PATH, sep='|', header=None, names=['filename', 'label'])
             for _, row in df.iterrows():
-                # Bersihkan label agar cocok dengan output model (tanpa spasi/simbol)
-                # Contoh: "Buka pintu." -> "bukapintu"
                 clean_key = re.sub(r'[^a-zA-Z0-9]', '', str(row['label']).lower())
-                
-                # Simpan kalimat aslinya
                 original_text = str(row['label']).strip()
                 mapping[clean_key] = original_text
         except Exception as e:
@@ -132,7 +88,6 @@ class ResNetBiGRU(nn.Module):
         return out
 
 def get_fixed_labels():
-    # Daftar 112 Kelas (Wajib sama dengan training)
     raw_labels = [
         'P01', 'P03', 'P04', 'P05', 'P06', 'P07', 'P08', 'P10', 'P11', 'P12', 'P13', 'P14',
         'aktifkanmodepesawatsekarang', 'apakahkamusudahmengerjakanpr', 'bagaimanacaramasaknasigoreng', 
@@ -169,20 +124,54 @@ def get_fixed_labels():
     le.fit(raw_labels)
     return le
 
+# ===============================
+# 4. LOAD MODEL (DENGAN GDOWN YANG LEBIH KUAT)
+# ===============================
 @st.cache_resource
 def load_model():
+    # Cek file lokal
+    if not os.path.exists(MODEL_PATH):
+        st.warning("📥 Sedang mendownload model dari Google Drive... (Harap tunggu ±1 menit)")
+        
+        # Link yang kamu berikan
+        url = 'https://drive.google.com/file/d/1t4Z9NwM-LCRAYw5aM9L1jRS0AgNsV2sY/view?usp=drive_link'
+        
+        try:
+            # Gunakan fuzzy=True agar bisa ekstrak ID dari link sharing biasa
+            output = gdown.download(url, MODEL_PATH, quiet=False, fuzzy=True)
+            
+            # Validasi apakah file benar-benar ada setelah download
+            if output and os.path.exists(MODEL_PATH):
+                st.success(f"✅ Download selesai! (Ukuran: {os.path.getsize(MODEL_PATH)/1e6:.2f} MB)")
+            else:
+                st.error("❌ Gagal mendownload model. Pastikan Link Drive 'Public' (Anyone with the link).")
+                st.stop()
+                
+        except Exception as e:
+            st.error(f"Terjadi error saat download: {e}")
+            st.stop()
+
     le = get_fixed_labels()
     num_classes = len(le.classes_)
     
     model = ResNetBiGRU(num_classes=num_classes).to(DEVICE)
-    if torch.cuda.is_available():
-        checkpoint = torch.load(MODEL_PATH)
-    else:
-        checkpoint = torch.load(MODEL_PATH, map_location='cpu')
     
-    model.load_state_dict(checkpoint)
-    model.eval()
-    return model, le
+    # Load Weights dengan map_location='cpu' untuk Cloud
+    try:
+        if torch.cuda.is_available():
+            checkpoint = torch.load(MODEL_PATH)
+        else:
+            checkpoint = torch.load(MODEL_PATH, map_location='cpu')
+        
+        model.load_state_dict(checkpoint)
+        model.eval()
+        return model, le
+    except FileNotFoundError:
+        st.error("❌ File model tidak ditemukan meskipun sudah mencoba download.")
+        st.stop()
+    except Exception as e:
+        st.error(f"❌ Error saat meload model: {e}")
+        st.stop()
 
 def extract_lip_roi(image, face_mesh):
     h, w, _ = image.shape
@@ -243,7 +232,7 @@ def preprocess_and_predict(video_path, model, le):
     return pred_label, confidence
 
 # ===============================
-# 4. USER INTERFACE
+# 5. USER INTERFACE
 # ===============================
 def main():
     st.sidebar.image("https://img.icons8.com/color/96/artificial-intelligence.png", width=80)
@@ -261,9 +250,9 @@ def main():
     st.markdown("### Demo Identifikasi Kalimat Berbasis Bibir (Lip Reading)")
     
     # Load Model & Sentence Map
-    with st.spinner("Sedang memuat model AI..."):
+    with st.spinner("Sedang memuat sistem..."):
         model, le = load_model()
-        sentence_map = load_sentence_map() # Load Kamus
+        sentence_map = load_sentence_map()
     
     st.success("✅ Model AI Siap Digunakan!")
     st.markdown("---")
@@ -277,9 +266,10 @@ def main():
         
         if uploaded_file is not None:
             st.video(uploaded_file)
+            # Gunakan tempfile dengan penanganan permission yang aman
             tfile = tempfile.NamedTemporaryFile(delete=False, suffix='.mp4') 
             tfile.write(uploaded_file.read())
-            tfile.close()
+            tfile.close() # PENTING!
             video_path = tfile.name
             predict_btn = st.button("🔍 Analisis Gerakan Bibir", type="primary")
 
@@ -294,14 +284,12 @@ def main():
                     if "❌" in str(result_key):
                         st.error(result_key)
                     else:
-                        # --- MODIFIKASI TAMPILAN ---
-                        # Ambil kalimat asli dari map. Jika tidak ada, pakai hasil raw.
+                        # Tampilkan Kalimat Asli
                         final_sentence = sentence_map.get(result_key, result_key)
                         
                         st.balloons()
                         st.markdown("##### Model Memprediksi Kalimat:")
                         
-                        # Tampilan HTML dipercantik dengan Letter Spacing
                         st.markdown(
                             f"""
                             <div style="background-color:#d4edda;padding:20px;border-radius:10px;border:2px solid #28a745;text-align:center;">
@@ -312,10 +300,6 @@ def main():
                         )
                         
                         st.markdown(f"**Tingkat Keyakinan (Confidence):** `{conf:.2f}%`")
-                        
-                        # Debugging (Opsional, biar tau ID nya apa)
-                        with st.expander("Lihat Detail Teknis"):
-                            st.text(f"Raw Class ID: {result_key}")
                         
                 except Exception as e:
                     st.error(f"Terjadi kesalahan: {e}")
