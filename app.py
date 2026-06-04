@@ -131,12 +131,35 @@ def load_model():
         url = 'https://drive.google.com/file/d/1t4Z9NwM-LCRAYw5aM9L1jRS0AgNsV2sY/view?usp=drive_link'
         
         try:
-            output = gdown.download(url, MODEL_PATH, quiet=False, fuzzy=True)
+            # PERBAIKAN: Parameter fuzzy=True sudah dihapus di sini
+            output = gdown.download(url, MODEL_PATH, quiet=False)
             if output and os.path.exists(MODEL_PATH):
                 st.success(f"✅ Download selesai! (Ukuran: {os.path.getsize(MODEL_PATH)/1e6:.2f} MB)")
             else:
                 st.error("❌ Gagal mendownload model.")
                 st.stop()
+        except Exception as e:
+            st.error(f"Terjadi error saat download: {e}")
+            st.stop()
+
+    le = get_fixed_labels()
+    num_classes = len(le.classes_)
+    
+    model = ResNetBiGRU(num_classes=num_classes).to(DEVICE)
+    
+    try:
+        # Load Weights (CPU/GPU safe)
+        if torch.cuda.is_available():
+            checkpoint = torch.load(MODEL_PATH)
+        else:
+            checkpoint = torch.load(MODEL_PATH, map_location='cpu')
+        
+        model.load_state_dict(checkpoint)
+        model.eval()
+        return model, le
+    except Exception as e:
+        st.error(f"❌ Error saat meload model: {e}")
+        st.stop()
         except Exception as e:
             st.error(f"Terjadi error saat download: {e}")
             st.stop()
