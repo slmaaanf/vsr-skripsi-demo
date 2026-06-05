@@ -128,7 +128,7 @@ def load_model():
         st.warning("📥 Sedang mendownload model dari Google Drive... (Harap tunggu ±1 menit)")
         
         # Link Public Google Drive
-        url = 'https://drive.google.com/file/d/1JmZKhP8-fPlfstRYv7TOpY4Qw-Xuu90K/view?usp=drive_link'
+        url = 'https://drive.google.com/file/d/1JmZKhP8-fPlfstRYv7TOpY4Qw-Xuu90K/view?usp=sharing'
         
         try:
             output = gdown.download(url, MODEL_PATH, quiet=False)
